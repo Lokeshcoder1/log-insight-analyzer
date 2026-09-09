@@ -1,0 +1,1000 @@
+2026-09-09 23:08:59 INFO order-service request_id=req-000001 order_id=ORD-24883 status=201 response_time=70ms Request completed successfully
+2026-09-09 23:09:04 ERROR pos-integration request_id=req-000002 order_id=ORD-13853 status=500 response_time=1699ms Internal service failure
+2026-09-09 23:09:09 INFO payment-service request_id=req-000003 order_id=ORD-82663 status=201 response_time=25ms Request completed successfully
+2026-09-09 23:09:14 INFO payment-service request_id=req-000004 order_id=ORD-58214 status=201 response_time=91ms Request completed successfully
+2026-09-09 23:09:19 WARNING pos-integration request_id=req-000005 order_id=ORD-94239 status=401 response_time=357ms Invalid client request
+2026-09-09 23:09:24 ERROR pos-integration request_id=req-000006 order_id=ORD-65427 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:09:29 INFO customer-service request_id=req-000007 order_id=ORD-75543 status=201 response_time=209ms Request completed successfully
+2026-09-09 23:09:34 INFO pos-integration request_id=req-000008 order_id=ORD-33604 status=200 response_time=70ms Request completed successfully
+2026-09-09 23:09:39 INFO customer-service request_id=req-000009 order_id=ORD-48378 status=201 response_time=296ms Request completed successfully
+2026-09-09 23:09:44 ERROR customer-service request_id=req-000010 order_id=ORD-85253 status=500 response_time=1641ms Internal service failure
+2026-09-09 23:09:49 INFO pos-integration request_id=req-000011 order_id=ORD-96247 status=200 response_time=218ms Request completed successfully
+2026-09-09 23:09:54 INFO order-service request_id=req-000012 order_id=ORD-13593 status=201 response_time=79ms Request completed successfully
+2026-09-09 23:09:59 INFO customer-service request_id=req-000013 order_id=ORD-62792 status=201 response_time=272ms Request completed successfully
+2026-09-09 23:10:04 ERROR pos-integration request_id=req-000014 order_id=ORD-26809 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:10:09 ERROR pos-integration request_id=req-000015 order_id=ORD-98454 status=502 response_time=1547ms Internal service failure
+2026-09-09 23:10:14 WARNING customer-service request_id=req-000016 order_id=ORD-32954 status=200 response_time=1461ms Request completed but response was slow
+2026-09-09 23:10:19 ERROR pos-integration request_id=req-000017 order_id=ORD-61209 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:10:24 INFO order-service request_id=req-000018 order_id=ORD-94700 status=201 response_time=186ms Request completed successfully
+2026-09-09 23:10:29 INFO customer-service request_id=req-000019 order_id=ORD-54550 status=200 response_time=85ms Request completed successfully
+2026-09-09 23:10:34 INFO order-service request_id=req-000020 order_id=ORD-61038 status=201 response_time=105ms Request completed successfully
+2026-09-09 23:10:39 INFO payment-service request_id=req-000021 order_id=ORD-42339 status=200 response_time=258ms Request completed successfully
+2026-09-09 23:10:44 INFO customer-service request_id=req-000022 order_id=ORD-87752 status=201 response_time=299ms Request completed successfully
+2026-09-09 23:10:49 INFO order-service request_id=req-000023 order_id=ORD-66492 status=200 response_time=26ms Request completed successfully
+2026-09-09 23:10:54 INFO order-service request_id=req-000024 order_id=ORD-11284 status=201 response_time=226ms Request completed successfully
+2026-09-09 23:10:59 INFO pos-integration request_id=req-000025 order_id=ORD-30690 status=201 response_time=279ms Request completed successfully
+2026-09-09 23:11:04 INFO customer-service request_id=req-000026 order_id=ORD-37684 status=201 response_time=175ms Request completed successfully
+2026-09-09 23:11:09 ERROR order-service request_id=req-000027 order_id=ORD-15205 status=503 response_time=701ms Internal service failure
+2026-09-09 23:11:14 INFO payment-service request_id=req-000028 order_id=ORD-47435 status=201 response_time=57ms Request completed successfully
+2026-09-09 23:11:19 WARNING customer-service request_id=req-000029 order_id=ORD-35156 status=403 response_time=348ms Invalid client request
+2026-09-09 23:11:24 INFO customer-service request_id=req-000030 order_id=ORD-76754 status=200 response_time=250ms Request completed successfully
+2026-09-09 23:11:29 INFO payment-service request_id=req-000031 order_id=ORD-35391 status=200 response_time=172ms Request completed successfully
+2026-09-09 23:11:34 WARNING payment-service request_id=req-000032 order_id=ORD-14238 status=200 response_time=1200ms Request completed but response was slow
+2026-09-09 23:11:39 INFO order-service request_id=req-000033 order_id=ORD-18165 status=200 response_time=270ms Request completed successfully
+2026-09-09 23:11:44 INFO customer-service request_id=req-000034 order_id=ORD-11878 status=200 response_time=20ms Request completed successfully
+2026-09-09 23:11:49 INFO payment-service request_id=req-000035 order_id=ORD-79677 status=200 response_time=63ms Request completed successfully
+2026-09-09 23:11:54 INFO order-service request_id=req-000036 order_id=ORD-31777 status=200 response_time=21ms Request completed successfully
+2026-09-09 23:11:59 WARNING customer-service request_id=req-000037 order_id=ORD-42146 status=200 response_time=1685ms Request completed but response was slow
+2026-09-09 23:12:04 INFO order-service request_id=req-000038 order_id=ORD-73283 status=200 response_time=112ms Request completed successfully
+2026-09-09 23:12:09 WARNING customer-service request_id=req-000039 order_id=ORD-87862 status=200 response_time=1650ms Request completed but response was slow
+2026-09-09 23:12:14 INFO customer-service request_id=req-000040 order_id=ORD-14491 status=200 response_time=134ms Request completed successfully
+2026-09-09 23:12:19 INFO customer-service request_id=req-000041 order_id=ORD-14118 status=201 response_time=97ms Request completed successfully
+2026-09-09 23:12:24 INFO payment-service request_id=req-000042 order_id=ORD-74681 status=201 response_time=155ms Request completed successfully
+2026-09-09 23:12:29 INFO pos-integration request_id=req-000043 order_id=ORD-58119 status=200 response_time=260ms Request completed successfully
+2026-09-09 23:12:34 WARNING pos-integration request_id=req-000044 order_id=ORD-52650 status=403 response_time=214ms Invalid client request
+2026-09-09 23:12:39 INFO customer-service request_id=req-000045 order_id=ORD-42951 status=201 response_time=128ms Request completed successfully
+2026-09-09 23:12:44 INFO payment-service request_id=req-000046 order_id=ORD-33316 status=200 response_time=182ms Request completed successfully
+2026-09-09 23:12:49 INFO customer-service request_id=req-000047 order_id=ORD-85129 status=200 response_time=128ms Request completed successfully
+2026-09-09 23:12:54 ERROR order-service request_id=req-000048 order_id=ORD-17599 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:12:59 INFO order-service request_id=req-000049 order_id=ORD-85177 status=201 response_time=40ms Request completed successfully
+2026-09-09 23:13:04 INFO payment-service request_id=req-000050 order_id=ORD-96554 status=200 response_time=241ms Request completed successfully
+2026-09-09 23:13:09 INFO payment-service request_id=req-000051 order_id=ORD-62789 status=201 response_time=45ms Request completed successfully
+2026-09-09 23:13:14 INFO customer-service request_id=req-000052 order_id=ORD-75569 status=201 response_time=180ms Request completed successfully
+2026-09-09 23:13:19 INFO pos-integration request_id=req-000053 order_id=ORD-71068 status=201 response_time=51ms Request completed successfully
+2026-09-09 23:13:24 INFO payment-service request_id=req-000054 order_id=ORD-56149 status=201 response_time=256ms Request completed successfully
+2026-09-09 23:13:29 WARNING order-service request_id=req-000055 order_id=ORD-29168 status=401 response_time=121ms Invalid client request
+2026-09-09 23:13:34 INFO payment-service request_id=req-000056 order_id=ORD-57055 status=200 response_time=267ms Request completed successfully
+2026-09-09 23:13:39 INFO customer-service request_id=req-000057 order_id=ORD-58204 status=201 response_time=139ms Request completed successfully
+2026-09-09 23:13:44 INFO order-service request_id=req-000058 order_id=ORD-55078 status=201 response_time=274ms Request completed successfully
+2026-09-09 23:13:49 INFO order-service request_id=req-000059 order_id=ORD-13821 status=201 response_time=291ms Request completed successfully
+2026-09-09 23:13:54 INFO customer-service request_id=req-000060 order_id=ORD-31635 status=201 response_time=145ms Request completed successfully
+2026-09-09 23:13:59 INFO order-service request_id=req-000061 order_id=ORD-62949 status=200 response_time=281ms Request completed successfully
+2026-09-09 23:14:04 INFO customer-service request_id=req-000062 order_id=ORD-20777 status=200 response_time=70ms Request completed successfully
+2026-09-09 23:14:09 ERROR order-service request_id=req-000063 order_id=ORD-72051 status=502 response_time=1321ms Internal service failure
+2026-09-09 23:14:14 WARNING customer-service request_id=req-000064 order_id=ORD-30081 status=200 response_time=2379ms Request completed but response was slow
+2026-09-09 23:14:19 INFO order-service request_id=req-000065 order_id=ORD-66541 status=201 response_time=163ms Request completed successfully
+2026-09-09 23:14:24 ERROR payment-service request_id=req-000066 order_id=ORD-66052 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:14:29 INFO payment-service request_id=req-000067 order_id=ORD-11024 status=200 response_time=167ms Request completed successfully
+2026-09-09 23:14:34 INFO customer-service request_id=req-000068 order_id=ORD-97936 status=201 response_time=122ms Request completed successfully
+2026-09-09 23:14:39 INFO customer-service request_id=req-000069 order_id=ORD-39191 status=200 response_time=70ms Request completed successfully
+2026-09-09 23:14:44 WARNING payment-service request_id=req-000070 order_id=ORD-54488 status=200 response_time=1359ms Request completed but response was slow
+2026-09-09 23:14:49 WARNING order-service request_id=req-000071 order_id=ORD-29891 status=200 response_time=2858ms Request completed but response was slow
+2026-09-09 23:14:54 INFO pos-integration request_id=req-000072 order_id=ORD-24233 status=201 response_time=178ms Request completed successfully
+2026-09-09 23:14:59 INFO order-service request_id=req-000073 order_id=ORD-60979 status=200 response_time=234ms Request completed successfully
+2026-09-09 23:15:04 INFO customer-service request_id=req-000074 order_id=ORD-29333 status=200 response_time=202ms Request completed successfully
+2026-09-09 23:15:09 INFO customer-service request_id=req-000075 order_id=ORD-77837 status=201 response_time=293ms Request completed successfully
+2026-09-09 23:15:14 ERROR pos-integration request_id=req-000076 order_id=ORD-61251 status=500 response_time=436ms Internal service failure
+2026-09-09 23:15:19 ERROR pos-integration request_id=req-000077 order_id=ORD-22814 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:15:24 INFO customer-service request_id=req-000078 order_id=ORD-15690 status=201 response_time=101ms Request completed successfully
+2026-09-09 23:15:29 INFO order-service request_id=req-000079 order_id=ORD-25373 status=200 response_time=247ms Request completed successfully
+2026-09-09 23:15:34 INFO payment-service request_id=req-000080 order_id=ORD-10351 status=200 response_time=122ms Request completed successfully
+2026-09-09 23:15:39 WARNING payment-service request_id=req-000081 order_id=ORD-35326 status=200 response_time=1965ms Request completed but response was slow
+2026-09-09 23:15:44 INFO customer-service request_id=req-000082 order_id=ORD-76216 status=200 response_time=58ms Request completed successfully
+2026-09-09 23:15:49 INFO order-service request_id=req-000083 order_id=ORD-49597 status=201 response_time=287ms Request completed successfully
+2026-09-09 23:15:54 INFO pos-integration request_id=req-000084 order_id=ORD-91577 status=201 response_time=64ms Request completed successfully
+2026-09-09 23:15:59 INFO pos-integration request_id=req-000085 order_id=ORD-90035 status=200 response_time=208ms Request completed successfully
+2026-09-09 23:16:04 INFO customer-service request_id=req-000086 order_id=ORD-41780 status=201 response_time=120ms Request completed successfully
+2026-09-09 23:16:09 INFO pos-integration request_id=req-000087 order_id=ORD-83324 status=200 response_time=110ms Request completed successfully
+2026-09-09 23:16:14 INFO pos-integration request_id=req-000088 order_id=ORD-85979 status=200 response_time=71ms Request completed successfully
+2026-09-09 23:16:19 WARNING customer-service request_id=req-000089 order_id=ORD-81478 status=404 response_time=379ms Invalid client request
+2026-09-09 23:16:24 INFO customer-service request_id=req-000090 order_id=ORD-19403 status=200 response_time=186ms Request completed successfully
+2026-09-09 23:16:29 INFO order-service request_id=req-000091 order_id=ORD-16846 status=200 response_time=34ms Request completed successfully
+2026-09-09 23:16:34 INFO customer-service request_id=req-000092 order_id=ORD-55333 status=201 response_time=298ms Request completed successfully
+2026-09-09 23:16:39 ERROR customer-service request_id=req-000093 order_id=ORD-53474 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:16:44 INFO payment-service request_id=req-000094 order_id=ORD-59803 status=200 response_time=93ms Request completed successfully
+2026-09-09 23:16:49 ERROR payment-service request_id=req-000095 order_id=ORD-12686 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:16:54 ERROR customer-service request_id=req-000096 order_id=ORD-51393 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:16:59 INFO customer-service request_id=req-000097 order_id=ORD-23681 status=200 response_time=226ms Request completed successfully
+2026-09-09 23:17:04 ERROR payment-service request_id=req-000098 order_id=ORD-34973 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:17:09 WARNING pos-integration request_id=req-000099 order_id=ORD-19932 status=403 response_time=266ms Invalid client request
+2026-09-09 23:17:14 ERROR order-service request_id=req-000100 order_id=ORD-31855 status=503 response_time=1910ms Internal service failure
+2026-09-09 23:17:19 INFO customer-service request_id=req-000101 order_id=ORD-12646 status=201 response_time=265ms Request completed successfully
+2026-09-09 23:17:24 ERROR order-service request_id=req-000102 order_id=ORD-86941 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:17:29 INFO order-service request_id=req-000103 order_id=ORD-89976 status=201 response_time=190ms Request completed successfully
+2026-09-09 23:17:34 INFO payment-service request_id=req-000104 order_id=ORD-44960 status=200 response_time=227ms Request completed successfully
+2026-09-09 23:17:39 WARNING order-service request_id=req-000105 order_id=ORD-99749 status=401 response_time=416ms Invalid client request
+2026-09-09 23:17:44 INFO order-service request_id=req-000106 order_id=ORD-47018 status=200 response_time=144ms Request completed successfully
+2026-09-09 23:17:49 WARNING order-service request_id=req-000107 order_id=ORD-81404 status=404 response_time=247ms Invalid client request
+2026-09-09 23:17:54 WARNING payment-service request_id=req-000108 order_id=ORD-53703 status=200 response_time=1566ms Request completed but response was slow
+2026-09-09 23:17:59 ERROR payment-service request_id=req-000109 order_id=ORD-82802 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:18:04 INFO order-service request_id=req-000110 order_id=ORD-84561 status=201 response_time=236ms Request completed successfully
+2026-09-09 23:18:09 ERROR customer-service request_id=req-000111 order_id=ORD-40361 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:18:14 INFO pos-integration request_id=req-000112 order_id=ORD-84338 status=200 response_time=159ms Request completed successfully
+2026-09-09 23:18:19 WARNING customer-service request_id=req-000113 order_id=ORD-52228 status=200 response_time=2582ms Request completed but response was slow
+2026-09-09 23:18:24 INFO payment-service request_id=req-000114 order_id=ORD-40667 status=201 response_time=98ms Request completed successfully
+2026-09-09 23:18:29 INFO pos-integration request_id=req-000115 order_id=ORD-54729 status=200 response_time=258ms Request completed successfully
+2026-09-09 23:18:34 INFO payment-service request_id=req-000116 order_id=ORD-99494 status=200 response_time=31ms Request completed successfully
+2026-09-09 23:18:39 WARNING customer-service request_id=req-000117 order_id=ORD-29531 status=403 response_time=231ms Invalid client request
+2026-09-09 23:18:44 INFO payment-service request_id=req-000118 order_id=ORD-26669 status=201 response_time=89ms Request completed successfully
+2026-09-09 23:18:49 INFO customer-service request_id=req-000119 order_id=ORD-61605 status=201 response_time=161ms Request completed successfully
+2026-09-09 23:18:54 ERROR pos-integration request_id=req-000120 order_id=ORD-68672 status=500 response_time=1516ms Internal service failure
+2026-09-09 23:18:59 WARNING customer-service request_id=req-000121 order_id=ORD-12648 status=401 response_time=182ms Invalid client request
+2026-09-09 23:19:04 INFO customer-service request_id=req-000122 order_id=ORD-16984 status=201 response_time=260ms Request completed successfully
+2026-09-09 23:19:09 INFO payment-service request_id=req-000123 order_id=ORD-12382 status=201 response_time=149ms Request completed successfully
+2026-09-09 23:19:14 INFO order-service request_id=req-000124 order_id=ORD-62223 status=201 response_time=182ms Request completed successfully
+2026-09-09 23:19:19 INFO pos-integration request_id=req-000125 order_id=ORD-58431 status=201 response_time=142ms Request completed successfully
+2026-09-09 23:19:24 INFO customer-service request_id=req-000126 order_id=ORD-99992 status=200 response_time=101ms Request completed successfully
+2026-09-09 23:19:29 INFO order-service request_id=req-000127 order_id=ORD-12919 status=201 response_time=30ms Request completed successfully
+2026-09-09 23:19:34 INFO payment-service request_id=req-000128 order_id=ORD-34614 status=200 response_time=233ms Request completed successfully
+2026-09-09 23:19:39 INFO pos-integration request_id=req-000129 order_id=ORD-15794 status=201 response_time=164ms Request completed successfully
+2026-09-09 23:19:44 INFO customer-service request_id=req-000130 order_id=ORD-11521 status=200 response_time=136ms Request completed successfully
+2026-09-09 23:19:49 INFO payment-service request_id=req-000131 order_id=ORD-92925 status=201 response_time=124ms Request completed successfully
+2026-09-09 23:19:54 INFO pos-integration request_id=req-000132 order_id=ORD-94791 status=201 response_time=280ms Request completed successfully
+2026-09-09 23:19:59 INFO order-service request_id=req-000133 order_id=ORD-58719 status=200 response_time=104ms Request completed successfully
+2026-09-09 23:20:04 INFO payment-service request_id=req-000134 order_id=ORD-31787 status=201 response_time=205ms Request completed successfully
+2026-09-09 23:20:09 INFO pos-integration request_id=req-000135 order_id=ORD-31236 status=201 response_time=196ms Request completed successfully
+2026-09-09 23:20:14 INFO payment-service request_id=req-000136 order_id=ORD-68245 status=201 response_time=167ms Request completed successfully
+2026-09-09 23:20:19 INFO customer-service request_id=req-000137 order_id=ORD-51012 status=200 response_time=287ms Request completed successfully
+2026-09-09 23:20:24 ERROR pos-integration request_id=req-000138 order_id=ORD-12256 status=502 response_time=904ms Internal service failure
+2026-09-09 23:20:29 INFO pos-integration request_id=req-000139 order_id=ORD-84015 status=200 response_time=189ms Request completed successfully
+2026-09-09 23:20:34 INFO pos-integration request_id=req-000140 order_id=ORD-16927 status=201 response_time=118ms Request completed successfully
+2026-09-09 23:20:39 WARNING order-service request_id=req-000141 order_id=ORD-41869 status=404 response_time=220ms Invalid client request
+2026-09-09 23:20:44 WARNING customer-service request_id=req-000142 order_id=ORD-52778 status=200 response_time=1683ms Request completed but response was slow
+2026-09-09 23:20:49 ERROR customer-service request_id=req-000143 order_id=ORD-46809 status=502 response_time=1266ms Internal service failure
+2026-09-09 23:20:54 WARNING pos-integration request_id=req-000144 order_id=ORD-48433 status=400 response_time=105ms Invalid client request
+2026-09-09 23:20:59 INFO customer-service request_id=req-000145 order_id=ORD-17719 status=200 response_time=117ms Request completed successfully
+2026-09-09 23:21:04 INFO customer-service request_id=req-000146 order_id=ORD-72950 status=201 response_time=250ms Request completed successfully
+2026-09-09 23:21:09 WARNING payment-service request_id=req-000147 order_id=ORD-62671 status=400 response_time=175ms Invalid client request
+2026-09-09 23:21:14 INFO pos-integration request_id=req-000148 order_id=ORD-32811 status=201 response_time=227ms Request completed successfully
+2026-09-09 23:21:19 ERROR customer-service request_id=req-000149 order_id=ORD-14727 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:21:24 INFO pos-integration request_id=req-000150 order_id=ORD-25579 status=201 response_time=188ms Request completed successfully
+2026-09-09 23:21:29 ERROR customer-service request_id=req-000151 order_id=ORD-65943 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:21:34 INFO customer-service request_id=req-000152 order_id=ORD-75167 status=200 response_time=89ms Request completed successfully
+2026-09-09 23:21:39 WARNING order-service request_id=req-000153 order_id=ORD-39660 status=200 response_time=2159ms Request completed but response was slow
+2026-09-09 23:21:44 WARNING payment-service request_id=req-000154 order_id=ORD-82867 status=401 response_time=266ms Invalid client request
+2026-09-09 23:21:49 WARNING pos-integration request_id=req-000155 order_id=ORD-20375 status=400 response_time=59ms Invalid client request
+2026-09-09 23:21:54 INFO customer-service request_id=req-000156 order_id=ORD-81178 status=200 response_time=24ms Request completed successfully
+2026-09-09 23:21:59 INFO order-service request_id=req-000157 order_id=ORD-23268 status=201 response_time=217ms Request completed successfully
+2026-09-09 23:22:04 INFO customer-service request_id=req-000158 order_id=ORD-98368 status=200 response_time=153ms Request completed successfully
+2026-09-09 23:22:09 INFO customer-service request_id=req-000159 order_id=ORD-40068 status=200 response_time=37ms Request completed successfully
+2026-09-09 23:22:14 INFO payment-service request_id=req-000160 order_id=ORD-13768 status=200 response_time=32ms Request completed successfully
+2026-09-09 23:22:19 INFO order-service request_id=req-000161 order_id=ORD-86633 status=200 response_time=205ms Request completed successfully
+2026-09-09 23:22:24 INFO order-service request_id=req-000162 order_id=ORD-90405 status=201 response_time=173ms Request completed successfully
+2026-09-09 23:22:29 ERROR payment-service request_id=req-000163 order_id=ORD-68196 status=502 response_time=1511ms Internal service failure
+2026-09-09 23:22:34 ERROR customer-service request_id=req-000164 order_id=ORD-64905 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:22:39 INFO pos-integration request_id=req-000165 order_id=ORD-67196 status=200 response_time=164ms Request completed successfully
+2026-09-09 23:22:44 INFO order-service request_id=req-000166 order_id=ORD-79386 status=201 response_time=21ms Request completed successfully
+2026-09-09 23:22:49 INFO order-service request_id=req-000167 order_id=ORD-89817 status=201 response_time=240ms Request completed successfully
+2026-09-09 23:22:54 WARNING pos-integration request_id=req-000168 order_id=ORD-78551 status=200 response_time=1228ms Request completed but response was slow
+2026-09-09 23:22:59 INFO payment-service request_id=req-000169 order_id=ORD-29084 status=201 response_time=160ms Request completed successfully
+2026-09-09 23:23:04 WARNING pos-integration request_id=req-000170 order_id=ORD-40679 status=200 response_time=2270ms Request completed but response was slow
+2026-09-09 23:23:09 INFO customer-service request_id=req-000171 order_id=ORD-82800 status=201 response_time=295ms Request completed successfully
+2026-09-09 23:23:14 ERROR customer-service request_id=req-000172 order_id=ORD-89103 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:23:19 WARNING customer-service request_id=req-000173 order_id=ORD-17116 status=200 response_time=2986ms Request completed but response was slow
+2026-09-09 23:23:24 WARNING payment-service request_id=req-000174 order_id=ORD-46351 status=200 response_time=1777ms Request completed but response was slow
+2026-09-09 23:23:29 INFO payment-service request_id=req-000175 order_id=ORD-65903 status=201 response_time=215ms Request completed successfully
+2026-09-09 23:23:34 INFO order-service request_id=req-000176 order_id=ORD-76847 status=201 response_time=229ms Request completed successfully
+2026-09-09 23:23:39 INFO payment-service request_id=req-000177 order_id=ORD-81249 status=201 response_time=116ms Request completed successfully
+2026-09-09 23:23:44 WARNING customer-service request_id=req-000178 order_id=ORD-26893 status=200 response_time=1456ms Request completed but response was slow
+2026-09-09 23:23:49 INFO payment-service request_id=req-000179 order_id=ORD-43224 status=200 response_time=42ms Request completed successfully
+2026-09-09 23:23:54 INFO customer-service request_id=req-000180 order_id=ORD-60341 status=201 response_time=213ms Request completed successfully
+2026-09-09 23:23:59 WARNING order-service request_id=req-000181 order_id=ORD-50586 status=200 response_time=1605ms Request completed but response was slow
+2026-09-09 23:24:04 INFO pos-integration request_id=req-000182 order_id=ORD-72117 status=201 response_time=276ms Request completed successfully
+2026-09-09 23:24:09 INFO payment-service request_id=req-000183 order_id=ORD-12697 status=200 response_time=43ms Request completed successfully
+2026-09-09 23:24:14 INFO payment-service request_id=req-000184 order_id=ORD-66124 status=201 response_time=278ms Request completed successfully
+2026-09-09 23:24:19 INFO order-service request_id=req-000185 order_id=ORD-55587 status=201 response_time=75ms Request completed successfully
+2026-09-09 23:24:24 INFO customer-service request_id=req-000186 order_id=ORD-30465 status=200 response_time=22ms Request completed successfully
+2026-09-09 23:24:29 INFO pos-integration request_id=req-000187 order_id=ORD-61380 status=201 response_time=289ms Request completed successfully
+2026-09-09 23:24:34 INFO pos-integration request_id=req-000188 order_id=ORD-87430 status=201 response_time=152ms Request completed successfully
+2026-09-09 23:24:39 WARNING order-service request_id=req-000189 order_id=ORD-83123 status=200 response_time=1027ms Request completed but response was slow
+2026-09-09 23:24:44 INFO customer-service request_id=req-000190 order_id=ORD-13540 status=201 response_time=196ms Request completed successfully
+2026-09-09 23:24:49 ERROR payment-service request_id=req-000191 order_id=ORD-56675 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:24:54 ERROR payment-service request_id=req-000192 order_id=ORD-22993 status=503 response_time=389ms Internal service failure
+2026-09-09 23:24:59 WARNING pos-integration request_id=req-000193 order_id=ORD-89145 status=200 response_time=2827ms Request completed but response was slow
+2026-09-09 23:25:04 INFO pos-integration request_id=req-000194 order_id=ORD-91800 status=201 response_time=200ms Request completed successfully
+2026-09-09 23:25:09 INFO customer-service request_id=req-000195 order_id=ORD-11813 status=200 response_time=24ms Request completed successfully
+2026-09-09 23:25:14 INFO order-service request_id=req-000196 order_id=ORD-37827 status=201 response_time=160ms Request completed successfully
+2026-09-09 23:25:19 INFO pos-integration request_id=req-000197 order_id=ORD-63035 status=200 response_time=136ms Request completed successfully
+2026-09-09 23:25:24 INFO order-service request_id=req-000198 order_id=ORD-56397 status=200 response_time=249ms Request completed successfully
+2026-09-09 23:25:29 INFO customer-service request_id=req-000199 order_id=ORD-85129 status=201 response_time=231ms Request completed successfully
+2026-09-09 23:25:34 INFO order-service request_id=req-000200 order_id=ORD-24617 status=200 response_time=161ms Request completed successfully
+2026-09-09 23:25:39 WARNING payment-service request_id=req-000201 order_id=ORD-12880 status=400 response_time=194ms Invalid client request
+2026-09-09 23:25:44 INFO order-service request_id=req-000202 order_id=ORD-89318 status=200 response_time=162ms Request completed successfully
+2026-09-09 23:25:49 INFO payment-service request_id=req-000203 order_id=ORD-65212 status=201 response_time=298ms Request completed successfully
+2026-09-09 23:25:54 INFO payment-service request_id=req-000204 order_id=ORD-31901 status=201 response_time=203ms Request completed successfully
+2026-09-09 23:25:59 WARNING customer-service request_id=req-000205 order_id=ORD-65235 status=400 response_time=76ms Invalid client request
+2026-09-09 23:26:04 INFO order-service request_id=req-000206 order_id=ORD-39860 status=201 response_time=57ms Request completed successfully
+2026-09-09 23:26:09 ERROR order-service request_id=req-000207 order_id=ORD-25586 status=502 response_time=1122ms Internal service failure
+2026-09-09 23:26:14 WARNING order-service request_id=req-000208 order_id=ORD-84459 status=400 response_time=249ms Invalid client request
+2026-09-09 23:26:19 WARNING payment-service request_id=req-000209 order_id=ORD-81632 status=401 response_time=268ms Invalid client request
+2026-09-09 23:26:24 WARNING customer-service request_id=req-000210 order_id=ORD-25562 status=200 response_time=2632ms Request completed but response was slow
+2026-09-09 23:26:29 INFO pos-integration request_id=req-000211 order_id=ORD-12642 status=200 response_time=138ms Request completed successfully
+2026-09-09 23:26:34 ERROR customer-service request_id=req-000212 order_id=ORD-56257 status=503 response_time=706ms Internal service failure
+2026-09-09 23:26:39 INFO pos-integration request_id=req-000213 order_id=ORD-56681 status=200 response_time=115ms Request completed successfully
+2026-09-09 23:26:44 INFO pos-integration request_id=req-000214 order_id=ORD-66463 status=200 response_time=45ms Request completed successfully
+2026-09-09 23:26:49 INFO order-service request_id=req-000215 order_id=ORD-83047 status=200 response_time=94ms Request completed successfully
+2026-09-09 23:26:54 INFO order-service request_id=req-000216 order_id=ORD-31141 status=200 response_time=290ms Request completed successfully
+2026-09-09 23:26:59 INFO customer-service request_id=req-000217 order_id=ORD-82194 status=200 response_time=279ms Request completed successfully
+2026-09-09 23:27:04 WARNING pos-integration request_id=req-000218 order_id=ORD-74943 status=200 response_time=1268ms Request completed but response was slow
+2026-09-09 23:27:09 INFO pos-integration request_id=req-000219 order_id=ORD-67228 status=200 response_time=36ms Request completed successfully
+2026-09-09 23:27:14 INFO customer-service request_id=req-000220 order_id=ORD-64071 status=200 response_time=155ms Request completed successfully
+2026-09-09 23:27:19 INFO order-service request_id=req-000221 order_id=ORD-81963 status=201 response_time=161ms Request completed successfully
+2026-09-09 23:27:24 INFO payment-service request_id=req-000222 order_id=ORD-13650 status=201 response_time=244ms Request completed successfully
+2026-09-09 23:27:29 INFO customer-service request_id=req-000223 order_id=ORD-67270 status=201 response_time=227ms Request completed successfully
+2026-09-09 23:27:34 INFO pos-integration request_id=req-000224 order_id=ORD-67269 status=200 response_time=186ms Request completed successfully
+2026-09-09 23:27:39 INFO order-service request_id=req-000225 order_id=ORD-62258 status=200 response_time=71ms Request completed successfully
+2026-09-09 23:27:44 INFO order-service request_id=req-000226 order_id=ORD-73445 status=201 response_time=102ms Request completed successfully
+2026-09-09 23:27:49 ERROR pos-integration request_id=req-000227 order_id=ORD-22501 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:27:54 INFO order-service request_id=req-000228 order_id=ORD-12190 status=200 response_time=54ms Request completed successfully
+2026-09-09 23:27:59 WARNING order-service request_id=req-000229 order_id=ORD-87423 status=200 response_time=2911ms Request completed but response was slow
+2026-09-09 23:28:04 INFO order-service request_id=req-000230 order_id=ORD-99410 status=200 response_time=28ms Request completed successfully
+2026-09-09 23:28:09 WARNING customer-service request_id=req-000231 order_id=ORD-65355 status=401 response_time=128ms Invalid client request
+2026-09-09 23:28:14 INFO customer-service request_id=req-000232 order_id=ORD-17451 status=200 response_time=208ms Request completed successfully
+2026-09-09 23:28:19 INFO customer-service request_id=req-000233 order_id=ORD-13544 status=200 response_time=87ms Request completed successfully
+2026-09-09 23:28:24 INFO customer-service request_id=req-000234 order_id=ORD-65647 status=201 response_time=182ms Request completed successfully
+2026-09-09 23:28:29 INFO customer-service request_id=req-000235 order_id=ORD-15638 status=201 response_time=138ms Request completed successfully
+2026-09-09 23:28:34 INFO customer-service request_id=req-000236 order_id=ORD-46283 status=201 response_time=35ms Request completed successfully
+2026-09-09 23:28:39 INFO payment-service request_id=req-000237 order_id=ORD-11097 status=201 response_time=214ms Request completed successfully
+2026-09-09 23:28:44 INFO pos-integration request_id=req-000238 order_id=ORD-56392 status=200 response_time=54ms Request completed successfully
+2026-09-09 23:28:49 INFO pos-integration request_id=req-000239 order_id=ORD-60475 status=201 response_time=279ms Request completed successfully
+2026-09-09 23:28:54 INFO order-service request_id=req-000240 order_id=ORD-50342 status=201 response_time=84ms Request completed successfully
+2026-09-09 23:28:59 ERROR payment-service request_id=req-000241 order_id=ORD-96639 status=500 response_time=552ms Internal service failure
+2026-09-09 23:29:04 INFO order-service request_id=req-000242 order_id=ORD-73032 status=201 response_time=68ms Request completed successfully
+2026-09-09 23:29:09 INFO payment-service request_id=req-000243 order_id=ORD-69749 status=201 response_time=213ms Request completed successfully
+2026-09-09 23:29:14 INFO customer-service request_id=req-000244 order_id=ORD-95890 status=200 response_time=284ms Request completed successfully
+2026-09-09 23:29:19 INFO order-service request_id=req-000245 order_id=ORD-35468 status=200 response_time=174ms Request completed successfully
+2026-09-09 23:29:24 INFO order-service request_id=req-000246 order_id=ORD-32739 status=200 response_time=64ms Request completed successfully
+2026-09-09 23:29:29 INFO pos-integration request_id=req-000247 order_id=ORD-43004 status=200 response_time=269ms Request completed successfully
+2026-09-09 23:29:34 INFO payment-service request_id=req-000248 order_id=ORD-38247 status=200 response_time=248ms Request completed successfully
+2026-09-09 23:29:39 INFO order-service request_id=req-000249 order_id=ORD-34378 status=200 response_time=256ms Request completed successfully
+2026-09-09 23:29:44 ERROR pos-integration request_id=req-000250 order_id=ORD-86746 status=503 response_time=414ms Internal service failure
+2026-09-09 23:29:49 INFO order-service request_id=req-000251 order_id=ORD-49321 status=201 response_time=69ms Request completed successfully
+2026-09-09 23:29:54 INFO customer-service request_id=req-000252 order_id=ORD-58100 status=201 response_time=192ms Request completed successfully
+2026-09-09 23:29:59 INFO payment-service request_id=req-000253 order_id=ORD-30191 status=201 response_time=112ms Request completed successfully
+2026-09-09 23:30:04 WARNING pos-integration request_id=req-000254 order_id=ORD-38258 status=200 response_time=2552ms Request completed but response was slow
+2026-09-09 23:30:09 INFO payment-service request_id=req-000255 order_id=ORD-75363 status=200 response_time=294ms Request completed successfully
+2026-09-09 23:30:14 INFO order-service request_id=req-000256 order_id=ORD-38711 status=200 response_time=51ms Request completed successfully
+2026-09-09 23:30:19 INFO pos-integration request_id=req-000257 order_id=ORD-51752 status=200 response_time=164ms Request completed successfully
+2026-09-09 23:30:24 WARNING pos-integration request_id=req-000258 order_id=ORD-51564 status=200 response_time=2220ms Request completed but response was slow
+2026-09-09 23:30:29 WARNING order-service request_id=req-000259 order_id=ORD-72642 status=200 response_time=2447ms Request completed but response was slow
+2026-09-09 23:30:34 INFO customer-service request_id=req-000260 order_id=ORD-37787 status=201 response_time=61ms Request completed successfully
+2026-09-09 23:30:39 INFO pos-integration request_id=req-000261 order_id=ORD-68030 status=200 response_time=25ms Request completed successfully
+2026-09-09 23:30:44 WARNING order-service request_id=req-000262 order_id=ORD-32774 status=200 response_time=2804ms Request completed but response was slow
+2026-09-09 23:30:49 INFO customer-service request_id=req-000263 order_id=ORD-94271 status=200 response_time=168ms Request completed successfully
+2026-09-09 23:30:54 INFO payment-service request_id=req-000264 order_id=ORD-70323 status=201 response_time=120ms Request completed successfully
+2026-09-09 23:30:59 INFO payment-service request_id=req-000265 order_id=ORD-22896 status=200 response_time=39ms Request completed successfully
+2026-09-09 23:31:04 INFO customer-service request_id=req-000266 order_id=ORD-96135 status=200 response_time=125ms Request completed successfully
+2026-09-09 23:31:09 INFO customer-service request_id=req-000267 order_id=ORD-59980 status=200 response_time=272ms Request completed successfully
+2026-09-09 23:31:14 INFO pos-integration request_id=req-000268 order_id=ORD-53557 status=200 response_time=91ms Request completed successfully
+2026-09-09 23:31:19 ERROR customer-service request_id=req-000269 order_id=ORD-79301 status=502 response_time=1599ms Internal service failure
+2026-09-09 23:31:24 INFO payment-service request_id=req-000270 order_id=ORD-77103 status=200 response_time=214ms Request completed successfully
+2026-09-09 23:31:29 ERROR order-service request_id=req-000271 order_id=ORD-94976 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:31:34 INFO order-service request_id=req-000272 order_id=ORD-38956 status=200 response_time=175ms Request completed successfully
+2026-09-09 23:31:39 INFO pos-integration request_id=req-000273 order_id=ORD-58559 status=201 response_time=160ms Request completed successfully
+2026-09-09 23:31:44 INFO customer-service request_id=req-000274 order_id=ORD-90610 status=200 response_time=194ms Request completed successfully
+2026-09-09 23:31:49 WARNING order-service request_id=req-000275 order_id=ORD-74000 status=200 response_time=1973ms Request completed but response was slow
+2026-09-09 23:31:54 INFO customer-service request_id=req-000276 order_id=ORD-97599 status=201 response_time=41ms Request completed successfully
+2026-09-09 23:31:59 INFO customer-service request_id=req-000277 order_id=ORD-59317 status=200 response_time=100ms Request completed successfully
+2026-09-09 23:32:04 INFO pos-integration request_id=req-000278 order_id=ORD-18030 status=200 response_time=117ms Request completed successfully
+2026-09-09 23:32:09 INFO order-service request_id=req-000279 order_id=ORD-27293 status=201 response_time=31ms Request completed successfully
+2026-09-09 23:32:14 INFO customer-service request_id=req-000280 order_id=ORD-44488 status=201 response_time=72ms Request completed successfully
+2026-09-09 23:32:19 INFO pos-integration request_id=req-000281 order_id=ORD-56039 status=201 response_time=199ms Request completed successfully
+2026-09-09 23:32:24 ERROR pos-integration request_id=req-000282 order_id=ORD-63077 status=502 response_time=1947ms Internal service failure
+2026-09-09 23:32:29 INFO pos-integration request_id=req-000283 order_id=ORD-57263 status=200 response_time=74ms Request completed successfully
+2026-09-09 23:32:34 INFO customer-service request_id=req-000284 order_id=ORD-30195 status=201 response_time=162ms Request completed successfully
+2026-09-09 23:32:39 INFO payment-service request_id=req-000285 order_id=ORD-35214 status=200 response_time=194ms Request completed successfully
+2026-09-09 23:32:44 INFO payment-service request_id=req-000286 order_id=ORD-86980 status=201 response_time=223ms Request completed successfully
+2026-09-09 23:32:49 WARNING payment-service request_id=req-000287 order_id=ORD-86697 status=404 response_time=107ms Invalid client request
+2026-09-09 23:32:54 WARNING customer-service request_id=req-000288 order_id=ORD-72110 status=200 response_time=1327ms Request completed but response was slow
+2026-09-09 23:32:59 INFO pos-integration request_id=req-000289 order_id=ORD-70368 status=200 response_time=77ms Request completed successfully
+2026-09-09 23:33:04 INFO order-service request_id=req-000290 order_id=ORD-56847 status=200 response_time=148ms Request completed successfully
+2026-09-09 23:33:09 WARNING pos-integration request_id=req-000291 order_id=ORD-49418 status=200 response_time=1000ms Request completed but response was slow
+2026-09-09 23:33:14 INFO order-service request_id=req-000292 order_id=ORD-32653 status=200 response_time=274ms Request completed successfully
+2026-09-09 23:33:19 ERROR customer-service request_id=req-000293 order_id=ORD-21806 status=503 response_time=436ms Internal service failure
+2026-09-09 23:33:24 WARNING order-service request_id=req-000294 order_id=ORD-24783 status=200 response_time=2711ms Request completed but response was slow
+2026-09-09 23:33:29 INFO customer-service request_id=req-000295 order_id=ORD-53791 status=200 response_time=263ms Request completed successfully
+2026-09-09 23:33:34 INFO pos-integration request_id=req-000296 order_id=ORD-78264 status=201 response_time=144ms Request completed successfully
+2026-09-09 23:33:39 ERROR customer-service request_id=req-000297 order_id=ORD-71022 status=502 response_time=979ms Internal service failure
+2026-09-09 23:33:44 INFO payment-service request_id=req-000298 order_id=ORD-52356 status=201 response_time=144ms Request completed successfully
+2026-09-09 23:33:49 INFO payment-service request_id=req-000299 order_id=ORD-91636 status=201 response_time=207ms Request completed successfully
+2026-09-09 23:33:54 WARNING order-service request_id=req-000300 order_id=ORD-83144 status=200 response_time=2840ms Request completed but response was slow
+2026-09-09 23:33:59 INFO customer-service request_id=req-000301 order_id=ORD-77111 status=200 response_time=106ms Request completed successfully
+2026-09-09 23:34:04 INFO order-service request_id=req-000302 order_id=ORD-64190 status=201 response_time=96ms Request completed successfully
+2026-09-09 23:34:09 ERROR customer-service request_id=req-000303 order_id=ORD-63287 status=500 response_time=1183ms Internal service failure
+2026-09-09 23:34:14 INFO payment-service request_id=req-000304 order_id=ORD-54198 status=201 response_time=228ms Request completed successfully
+2026-09-09 23:34:19 INFO pos-integration request_id=req-000305 order_id=ORD-38297 status=200 response_time=112ms Request completed successfully
+2026-09-09 23:34:24 WARNING pos-integration request_id=req-000306 order_id=ORD-87187 status=400 response_time=68ms Invalid client request
+2026-09-09 23:34:29 INFO pos-integration request_id=req-000307 order_id=ORD-60054 status=201 response_time=237ms Request completed successfully
+2026-09-09 23:34:34 INFO payment-service request_id=req-000308 order_id=ORD-42713 status=201 response_time=63ms Request completed successfully
+2026-09-09 23:34:39 INFO customer-service request_id=req-000309 order_id=ORD-68399 status=201 response_time=151ms Request completed successfully
+2026-09-09 23:34:44 WARNING order-service request_id=req-000310 order_id=ORD-59484 status=403 response_time=305ms Invalid client request
+2026-09-09 23:34:49 ERROR customer-service request_id=req-000311 order_id=ORD-70927 status=503 response_time=1883ms Internal service failure
+2026-09-09 23:34:54 WARNING pos-integration request_id=req-000312 order_id=ORD-12200 status=200 response_time=1151ms Request completed but response was slow
+2026-09-09 23:34:59 INFO pos-integration request_id=req-000313 order_id=ORD-69384 status=201 response_time=143ms Request completed successfully
+2026-09-09 23:35:04 INFO pos-integration request_id=req-000314 order_id=ORD-93603 status=201 response_time=97ms Request completed successfully
+2026-09-09 23:35:09 INFO order-service request_id=req-000315 order_id=ORD-41462 status=200 response_time=72ms Request completed successfully
+2026-09-09 23:35:14 INFO payment-service request_id=req-000316 order_id=ORD-47624 status=200 response_time=211ms Request completed successfully
+2026-09-09 23:35:19 INFO order-service request_id=req-000317 order_id=ORD-38494 status=200 response_time=132ms Request completed successfully
+2026-09-09 23:35:24 INFO order-service request_id=req-000318 order_id=ORD-14448 status=200 response_time=256ms Request completed successfully
+2026-09-09 23:35:29 ERROR payment-service request_id=req-000319 order_id=ORD-41554 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:35:34 INFO order-service request_id=req-000320 order_id=ORD-68731 status=201 response_time=35ms Request completed successfully
+2026-09-09 23:35:39 INFO customer-service request_id=req-000321 order_id=ORD-89514 status=201 response_time=146ms Request completed successfully
+2026-09-09 23:35:44 WARNING payment-service request_id=req-000322 order_id=ORD-27352 status=200 response_time=2434ms Request completed but response was slow
+2026-09-09 23:35:49 WARNING customer-service request_id=req-000323 order_id=ORD-72379 status=200 response_time=2577ms Request completed but response was slow
+2026-09-09 23:35:54 ERROR customer-service request_id=req-000324 order_id=ORD-48895 status=503 response_time=1083ms Internal service failure
+2026-09-09 23:35:59 WARNING pos-integration request_id=req-000325 order_id=ORD-89804 status=200 response_time=1219ms Request completed but response was slow
+2026-09-09 23:36:04 INFO customer-service request_id=req-000326 order_id=ORD-97174 status=201 response_time=20ms Request completed successfully
+2026-09-09 23:36:09 WARNING order-service request_id=req-000327 order_id=ORD-16808 status=200 response_time=2574ms Request completed but response was slow
+2026-09-09 23:36:14 INFO customer-service request_id=req-000328 order_id=ORD-21132 status=201 response_time=54ms Request completed successfully
+2026-09-09 23:36:19 ERROR pos-integration request_id=req-000329 order_id=ORD-45365 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:36:24 ERROR payment-service request_id=req-000330 order_id=ORD-19582 status=502 response_time=320ms Internal service failure
+2026-09-09 23:36:29 INFO order-service request_id=req-000331 order_id=ORD-10710 status=201 response_time=121ms Request completed successfully
+2026-09-09 23:36:34 WARNING pos-integration request_id=req-000332 order_id=ORD-80307 status=403 response_time=56ms Invalid client request
+2026-09-09 23:36:39 INFO payment-service request_id=req-000333 order_id=ORD-48609 status=201 response_time=76ms Request completed successfully
+2026-09-09 23:36:44 INFO pos-integration request_id=req-000334 order_id=ORD-32495 status=200 response_time=212ms Request completed successfully
+2026-09-09 23:36:49 INFO payment-service request_id=req-000335 order_id=ORD-63914 status=200 response_time=246ms Request completed successfully
+2026-09-09 23:36:54 WARNING payment-service request_id=req-000336 order_id=ORD-33095 status=200 response_time=1485ms Request completed but response was slow
+2026-09-09 23:36:59 INFO payment-service request_id=req-000337 order_id=ORD-93803 status=201 response_time=36ms Request completed successfully
+2026-09-09 23:37:04 INFO pos-integration request_id=req-000338 order_id=ORD-87444 status=201 response_time=72ms Request completed successfully
+2026-09-09 23:37:09 INFO payment-service request_id=req-000339 order_id=ORD-90494 status=200 response_time=197ms Request completed successfully
+2026-09-09 23:37:14 INFO order-service request_id=req-000340 order_id=ORD-61636 status=200 response_time=255ms Request completed successfully
+2026-09-09 23:37:19 INFO payment-service request_id=req-000341 order_id=ORD-24673 status=200 response_time=238ms Request completed successfully
+2026-09-09 23:37:24 INFO customer-service request_id=req-000342 order_id=ORD-77348 status=201 response_time=297ms Request completed successfully
+2026-09-09 23:37:29 INFO payment-service request_id=req-000343 order_id=ORD-86888 status=201 response_time=34ms Request completed successfully
+2026-09-09 23:37:34 ERROR pos-integration request_id=req-000344 order_id=ORD-57800 status=502 response_time=641ms Internal service failure
+2026-09-09 23:37:39 INFO payment-service request_id=req-000345 order_id=ORD-42432 status=200 response_time=226ms Request completed successfully
+2026-09-09 23:37:44 INFO payment-service request_id=req-000346 order_id=ORD-14141 status=201 response_time=221ms Request completed successfully
+2026-09-09 23:37:49 INFO payment-service request_id=req-000347 order_id=ORD-90788 status=200 response_time=49ms Request completed successfully
+2026-09-09 23:37:54 INFO payment-service request_id=req-000348 order_id=ORD-78043 status=200 response_time=128ms Request completed successfully
+2026-09-09 23:37:59 INFO payment-service request_id=req-000349 order_id=ORD-58562 status=201 response_time=83ms Request completed successfully
+2026-09-09 23:38:04 INFO customer-service request_id=req-000350 order_id=ORD-61953 status=200 response_time=106ms Request completed successfully
+2026-09-09 23:38:09 INFO order-service request_id=req-000351 order_id=ORD-79829 status=201 response_time=224ms Request completed successfully
+2026-09-09 23:38:14 WARNING customer-service request_id=req-000352 order_id=ORD-40055 status=404 response_time=243ms Invalid client request
+2026-09-09 23:38:19 WARNING customer-service request_id=req-000353 order_id=ORD-68024 status=200 response_time=2392ms Request completed but response was slow
+2026-09-09 23:38:24 INFO order-service request_id=req-000354 order_id=ORD-64768 status=201 response_time=131ms Request completed successfully
+2026-09-09 23:38:29 INFO order-service request_id=req-000355 order_id=ORD-65164 status=201 response_time=65ms Request completed successfully
+2026-09-09 23:38:34 INFO pos-integration request_id=req-000356 order_id=ORD-60302 status=201 response_time=207ms Request completed successfully
+2026-09-09 23:38:39 INFO customer-service request_id=req-000357 order_id=ORD-86817 status=200 response_time=88ms Request completed successfully
+2026-09-09 23:38:44 ERROR payment-service request_id=req-000358 order_id=ORD-21955 status=502 response_time=600ms Internal service failure
+2026-09-09 23:38:49 ERROR order-service request_id=req-000359 order_id=ORD-67643 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:38:54 INFO customer-service request_id=req-000360 order_id=ORD-55679 status=201 response_time=51ms Request completed successfully
+2026-09-09 23:38:59 INFO customer-service request_id=req-000361 order_id=ORD-83067 status=201 response_time=234ms Request completed successfully
+2026-09-09 23:39:04 INFO customer-service request_id=req-000362 order_id=ORD-46127 status=201 response_time=217ms Request completed successfully
+2026-09-09 23:39:09 INFO payment-service request_id=req-000363 order_id=ORD-42527 status=200 response_time=217ms Request completed successfully
+2026-09-09 23:39:14 INFO pos-integration request_id=req-000364 order_id=ORD-35159 status=200 response_time=288ms Request completed successfully
+2026-09-09 23:39:19 ERROR order-service request_id=req-000365 order_id=ORD-26845 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:39:24 INFO order-service request_id=req-000366 order_id=ORD-90980 status=200 response_time=205ms Request completed successfully
+2026-09-09 23:39:29 WARNING customer-service request_id=req-000367 order_id=ORD-37291 status=401 response_time=303ms Invalid client request
+2026-09-09 23:39:34 INFO order-service request_id=req-000368 order_id=ORD-67890 status=201 response_time=54ms Request completed successfully
+2026-09-09 23:39:39 INFO payment-service request_id=req-000369 order_id=ORD-53716 status=201 response_time=211ms Request completed successfully
+2026-09-09 23:39:44 INFO order-service request_id=req-000370 order_id=ORD-13528 status=200 response_time=138ms Request completed successfully
+2026-09-09 23:39:49 INFO order-service request_id=req-000371 order_id=ORD-36200 status=200 response_time=225ms Request completed successfully
+2026-09-09 23:39:54 ERROR customer-service request_id=req-000372 order_id=ORD-25423 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:39:59 ERROR customer-service request_id=req-000373 order_id=ORD-53176 status=502 response_time=1508ms Internal service failure
+2026-09-09 23:40:04 INFO customer-service request_id=req-000374 order_id=ORD-99124 status=201 response_time=181ms Request completed successfully
+2026-09-09 23:40:09 INFO customer-service request_id=req-000375 order_id=ORD-71969 status=200 response_time=109ms Request completed successfully
+2026-09-09 23:40:14 ERROR customer-service request_id=req-000376 order_id=ORD-55165 status=502 response_time=1690ms Internal service failure
+2026-09-09 23:40:19 WARNING order-service request_id=req-000377 order_id=ORD-18471 status=200 response_time=2030ms Request completed but response was slow
+2026-09-09 23:40:24 INFO payment-service request_id=req-000378 order_id=ORD-67197 status=201 response_time=163ms Request completed successfully
+2026-09-09 23:40:29 WARNING payment-service request_id=req-000379 order_id=ORD-52151 status=200 response_time=1654ms Request completed but response was slow
+2026-09-09 23:40:34 INFO payment-service request_id=req-000380 order_id=ORD-37385 status=201 response_time=33ms Request completed successfully
+2026-09-09 23:40:39 INFO customer-service request_id=req-000381 order_id=ORD-57201 status=200 response_time=206ms Request completed successfully
+2026-09-09 23:40:44 INFO payment-service request_id=req-000382 order_id=ORD-73019 status=201 response_time=247ms Request completed successfully
+2026-09-09 23:40:49 ERROR order-service request_id=req-000383 order_id=ORD-25537 status=503 response_time=1520ms Internal service failure
+2026-09-09 23:40:54 WARNING payment-service request_id=req-000384 order_id=ORD-85091 status=400 response_time=244ms Invalid client request
+2026-09-09 23:40:59 INFO payment-service request_id=req-000385 order_id=ORD-30872 status=200 response_time=198ms Request completed successfully
+2026-09-09 23:41:04 INFO payment-service request_id=req-000386 order_id=ORD-84718 status=201 response_time=34ms Request completed successfully
+2026-09-09 23:41:09 INFO payment-service request_id=req-000387 order_id=ORD-34709 status=200 response_time=64ms Request completed successfully
+2026-09-09 23:41:14 WARNING pos-integration request_id=req-000388 order_id=ORD-42167 status=200 response_time=1809ms Request completed but response was slow
+2026-09-09 23:41:19 INFO pos-integration request_id=req-000389 order_id=ORD-85182 status=200 response_time=27ms Request completed successfully
+2026-09-09 23:41:24 WARNING pos-integration request_id=req-000390 order_id=ORD-32613 status=400 response_time=119ms Invalid client request
+2026-09-09 23:41:29 INFO pos-integration request_id=req-000391 order_id=ORD-69089 status=200 response_time=173ms Request completed successfully
+2026-09-09 23:41:34 INFO customer-service request_id=req-000392 order_id=ORD-85958 status=201 response_time=96ms Request completed successfully
+2026-09-09 23:41:39 WARNING pos-integration request_id=req-000393 order_id=ORD-32901 status=200 response_time=2855ms Request completed but response was slow
+2026-09-09 23:41:44 WARNING payment-service request_id=req-000394 order_id=ORD-55594 status=403 response_time=258ms Invalid client request
+2026-09-09 23:41:49 INFO customer-service request_id=req-000395 order_id=ORD-26815 status=201 response_time=220ms Request completed successfully
+2026-09-09 23:41:54 WARNING payment-service request_id=req-000396 order_id=ORD-51682 status=401 response_time=468ms Invalid client request
+2026-09-09 23:41:59 INFO payment-service request_id=req-000397 order_id=ORD-28589 status=201 response_time=27ms Request completed successfully
+2026-09-09 23:42:04 INFO pos-integration request_id=req-000398 order_id=ORD-81871 status=201 response_time=123ms Request completed successfully
+2026-09-09 23:42:09 INFO payment-service request_id=req-000399 order_id=ORD-18133 status=200 response_time=139ms Request completed successfully
+2026-09-09 23:42:14 INFO order-service request_id=req-000400 order_id=ORD-20257 status=200 response_time=122ms Request completed successfully
+2026-09-09 23:42:19 INFO customer-service request_id=req-000401 order_id=ORD-19791 status=201 response_time=152ms Request completed successfully
+2026-09-09 23:42:24 ERROR order-service request_id=req-000402 order_id=ORD-32378 status=503 response_time=1751ms Internal service failure
+2026-09-09 23:42:29 WARNING pos-integration request_id=req-000403 order_id=ORD-25403 status=200 response_time=1953ms Request completed but response was slow
+2026-09-09 23:42:34 INFO pos-integration request_id=req-000404 order_id=ORD-40475 status=200 response_time=151ms Request completed successfully
+2026-09-09 23:42:39 INFO customer-service request_id=req-000405 order_id=ORD-19551 status=201 response_time=176ms Request completed successfully
+2026-09-09 23:42:44 INFO payment-service request_id=req-000406 order_id=ORD-76159 status=201 response_time=281ms Request completed successfully
+2026-09-09 23:42:49 INFO order-service request_id=req-000407 order_id=ORD-44034 status=201 response_time=282ms Request completed successfully
+2026-09-09 23:42:54 INFO pos-integration request_id=req-000408 order_id=ORD-47227 status=200 response_time=156ms Request completed successfully
+2026-09-09 23:42:59 ERROR payment-service request_id=req-000409 order_id=ORD-62202 status=502 response_time=1708ms Internal service failure
+2026-09-09 23:43:04 INFO order-service request_id=req-000410 order_id=ORD-33511 status=201 response_time=281ms Request completed successfully
+2026-09-09 23:43:09 ERROR payment-service request_id=req-000411 order_id=ORD-92440 status=502 response_time=961ms Internal service failure
+2026-09-09 23:43:14 INFO order-service request_id=req-000412 order_id=ORD-69192 status=200 response_time=56ms Request completed successfully
+2026-09-09 23:43:19 INFO order-service request_id=req-000413 order_id=ORD-74680 status=201 response_time=299ms Request completed successfully
+2026-09-09 23:43:24 INFO customer-service request_id=req-000414 order_id=ORD-77148 status=200 response_time=177ms Request completed successfully
+2026-09-09 23:43:29 INFO payment-service request_id=req-000415 order_id=ORD-25793 status=201 response_time=296ms Request completed successfully
+2026-09-09 23:43:34 INFO pos-integration request_id=req-000416 order_id=ORD-54321 status=201 response_time=242ms Request completed successfully
+2026-09-09 23:43:39 WARNING payment-service request_id=req-000417 order_id=ORD-22947 status=200 response_time=2519ms Request completed but response was slow
+2026-09-09 23:43:44 INFO pos-integration request_id=req-000418 order_id=ORD-83324 status=201 response_time=21ms Request completed successfully
+2026-09-09 23:43:49 INFO pos-integration request_id=req-000419 order_id=ORD-19483 status=201 response_time=171ms Request completed successfully
+2026-09-09 23:43:54 INFO payment-service request_id=req-000420 order_id=ORD-38322 status=200 response_time=290ms Request completed successfully
+2026-09-09 23:43:59 INFO payment-service request_id=req-000421 order_id=ORD-43222 status=200 response_time=266ms Request completed successfully
+2026-09-09 23:44:04 WARNING pos-integration request_id=req-000422 order_id=ORD-20003 status=200 response_time=2104ms Request completed but response was slow
+2026-09-09 23:44:09 INFO pos-integration request_id=req-000423 order_id=ORD-99105 status=201 response_time=33ms Request completed successfully
+2026-09-09 23:44:14 INFO payment-service request_id=req-000424 order_id=ORD-36769 status=200 response_time=279ms Request completed successfully
+2026-09-09 23:44:19 ERROR customer-service request_id=req-000425 order_id=ORD-14305 status=500 response_time=1496ms Internal service failure
+2026-09-09 23:44:24 INFO pos-integration request_id=req-000426 order_id=ORD-96929 status=201 response_time=261ms Request completed successfully
+2026-09-09 23:44:29 INFO payment-service request_id=req-000427 order_id=ORD-73971 status=200 response_time=199ms Request completed successfully
+2026-09-09 23:44:34 WARNING order-service request_id=req-000428 order_id=ORD-40857 status=200 response_time=2750ms Request completed but response was slow
+2026-09-09 23:44:39 WARNING payment-service request_id=req-000429 order_id=ORD-19005 status=403 response_time=450ms Invalid client request
+2026-09-09 23:44:44 INFO payment-service request_id=req-000430 order_id=ORD-38160 status=201 response_time=222ms Request completed successfully
+2026-09-09 23:44:49 WARNING pos-integration request_id=req-000431 order_id=ORD-12497 status=200 response_time=1295ms Request completed but response was slow
+2026-09-09 23:44:54 INFO order-service request_id=req-000432 order_id=ORD-24589 status=200 response_time=93ms Request completed successfully
+2026-09-09 23:44:59 INFO pos-integration request_id=req-000433 order_id=ORD-54361 status=200 response_time=64ms Request completed successfully
+2026-09-09 23:45:04 INFO order-service request_id=req-000434 order_id=ORD-82395 status=201 response_time=102ms Request completed successfully
+2026-09-09 23:45:09 ERROR pos-integration request_id=req-000435 order_id=ORD-88765 status=503 response_time=1235ms Internal service failure
+2026-09-09 23:45:14 INFO customer-service request_id=req-000436 order_id=ORD-71004 status=201 response_time=112ms Request completed successfully
+2026-09-09 23:45:19 INFO payment-service request_id=req-000437 order_id=ORD-30638 status=201 response_time=299ms Request completed successfully
+2026-09-09 23:45:24 INFO pos-integration request_id=req-000438 order_id=ORD-91569 status=201 response_time=279ms Request completed successfully
+2026-09-09 23:45:29 INFO customer-service request_id=req-000439 order_id=ORD-44205 status=201 response_time=29ms Request completed successfully
+2026-09-09 23:45:34 INFO customer-service request_id=req-000440 order_id=ORD-40220 status=201 response_time=58ms Request completed successfully
+2026-09-09 23:45:39 WARNING order-service request_id=req-000441 order_id=ORD-17882 status=200 response_time=1318ms Request completed but response was slow
+2026-09-09 23:45:44 ERROR payment-service request_id=req-000442 order_id=ORD-33702 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:45:49 INFO payment-service request_id=req-000443 order_id=ORD-71941 status=201 response_time=97ms Request completed successfully
+2026-09-09 23:45:54 INFO pos-integration request_id=req-000444 order_id=ORD-91447 status=200 response_time=153ms Request completed successfully
+2026-09-09 23:45:59 WARNING pos-integration request_id=req-000445 order_id=ORD-74429 status=401 response_time=362ms Invalid client request
+2026-09-09 23:46:04 WARNING customer-service request_id=req-000446 order_id=ORD-81550 status=403 response_time=357ms Invalid client request
+2026-09-09 23:46:09 WARNING order-service request_id=req-000447 order_id=ORD-82832 status=404 response_time=95ms Invalid client request
+2026-09-09 23:46:14 INFO payment-service request_id=req-000448 order_id=ORD-82693 status=200 response_time=296ms Request completed successfully
+2026-09-09 23:46:19 INFO pos-integration request_id=req-000449 order_id=ORD-41782 status=200 response_time=62ms Request completed successfully
+2026-09-09 23:46:24 INFO pos-integration request_id=req-000450 order_id=ORD-62008 status=201 response_time=34ms Request completed successfully
+2026-09-09 23:46:29 INFO payment-service request_id=req-000451 order_id=ORD-85389 status=200 response_time=295ms Request completed successfully
+2026-09-09 23:46:34 INFO customer-service request_id=req-000452 order_id=ORD-94298 status=201 response_time=45ms Request completed successfully
+2026-09-09 23:46:39 INFO payment-service request_id=req-000453 order_id=ORD-68667 status=200 response_time=127ms Request completed successfully
+2026-09-09 23:46:44 WARNING order-service request_id=req-000454 order_id=ORD-32520 status=401 response_time=240ms Invalid client request
+2026-09-09 23:46:49 INFO customer-service request_id=req-000455 order_id=ORD-25696 status=200 response_time=177ms Request completed successfully
+2026-09-09 23:46:54 INFO payment-service request_id=req-000456 order_id=ORD-30852 status=200 response_time=299ms Request completed successfully
+2026-09-09 23:46:59 INFO payment-service request_id=req-000457 order_id=ORD-70909 status=201 response_time=90ms Request completed successfully
+2026-09-09 23:47:04 INFO order-service request_id=req-000458 order_id=ORD-24707 status=201 response_time=188ms Request completed successfully
+2026-09-09 23:47:09 INFO order-service request_id=req-000459 order_id=ORD-66064 status=201 response_time=25ms Request completed successfully
+2026-09-09 23:47:14 INFO customer-service request_id=req-000460 order_id=ORD-79777 status=201 response_time=225ms Request completed successfully
+2026-09-09 23:47:19 INFO payment-service request_id=req-000461 order_id=ORD-20688 status=201 response_time=48ms Request completed successfully
+2026-09-09 23:47:24 INFO order-service request_id=req-000462 order_id=ORD-10778 status=201 response_time=87ms Request completed successfully
+2026-09-09 23:47:29 INFO customer-service request_id=req-000463 order_id=ORD-57929 status=201 response_time=47ms Request completed successfully
+2026-09-09 23:47:34 INFO payment-service request_id=req-000464 order_id=ORD-86069 status=200 response_time=27ms Request completed successfully
+2026-09-09 23:47:39 ERROR payment-service request_id=req-000465 order_id=ORD-57315 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:47:44 INFO order-service request_id=req-000466 order_id=ORD-63344 status=200 response_time=274ms Request completed successfully
+2026-09-09 23:47:49 WARNING customer-service request_id=req-000467 order_id=ORD-33355 status=403 response_time=412ms Invalid client request
+2026-09-09 23:47:54 ERROR pos-integration request_id=req-000468 order_id=ORD-56661 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:47:59 INFO customer-service request_id=req-000469 order_id=ORD-61970 status=200 response_time=117ms Request completed successfully
+2026-09-09 23:48:04 INFO customer-service request_id=req-000470 order_id=ORD-94224 status=201 response_time=57ms Request completed successfully
+2026-09-09 23:48:09 ERROR order-service request_id=req-000471 order_id=ORD-35100 status=500 response_time=1071ms Internal service failure
+2026-09-09 23:48:14 WARNING pos-integration request_id=req-000472 order_id=ORD-81011 status=200 response_time=1335ms Request completed but response was slow
+2026-09-09 23:48:19 ERROR payment-service request_id=req-000473 order_id=ORD-29505 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:48:24 INFO pos-integration request_id=req-000474 order_id=ORD-48617 status=200 response_time=60ms Request completed successfully
+2026-09-09 23:48:29 WARNING order-service request_id=req-000475 order_id=ORD-39909 status=200 response_time=2309ms Request completed but response was slow
+2026-09-09 23:48:34 WARNING pos-integration request_id=req-000476 order_id=ORD-63398 status=401 response_time=419ms Invalid client request
+2026-09-09 23:48:39 ERROR pos-integration request_id=req-000477 order_id=ORD-42957 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:48:44 INFO order-service request_id=req-000478 order_id=ORD-55757 status=201 response_time=284ms Request completed successfully
+2026-09-09 23:48:49 INFO pos-integration request_id=req-000479 order_id=ORD-14921 status=201 response_time=29ms Request completed successfully
+2026-09-09 23:48:54 INFO payment-service request_id=req-000480 order_id=ORD-86738 status=200 response_time=53ms Request completed successfully
+2026-09-09 23:48:59 INFO order-service request_id=req-000481 order_id=ORD-27441 status=200 response_time=210ms Request completed successfully
+2026-09-09 23:49:04 INFO order-service request_id=req-000482 order_id=ORD-26394 status=201 response_time=189ms Request completed successfully
+2026-09-09 23:49:09 ERROR customer-service request_id=req-000483 order_id=ORD-65116 status=502 response_time=1839ms Internal service failure
+2026-09-09 23:49:14 ERROR pos-integration request_id=req-000484 order_id=ORD-84727 status=503 response_time=998ms Internal service failure
+2026-09-09 23:49:19 INFO customer-service request_id=req-000485 order_id=ORD-63122 status=201 response_time=276ms Request completed successfully
+2026-09-09 23:49:24 INFO pos-integration request_id=req-000486 order_id=ORD-39819 status=201 response_time=33ms Request completed successfully
+2026-09-09 23:49:29 INFO customer-service request_id=req-000487 order_id=ORD-65778 status=200 response_time=217ms Request completed successfully
+2026-09-09 23:49:34 INFO order-service request_id=req-000488 order_id=ORD-23838 status=200 response_time=193ms Request completed successfully
+2026-09-09 23:49:39 WARNING payment-service request_id=req-000489 order_id=ORD-98931 status=200 response_time=1103ms Request completed but response was slow
+2026-09-09 23:49:44 INFO customer-service request_id=req-000490 order_id=ORD-41785 status=201 response_time=160ms Request completed successfully
+2026-09-09 23:49:49 INFO order-service request_id=req-000491 order_id=ORD-26298 status=200 response_time=101ms Request completed successfully
+2026-09-09 23:49:54 INFO order-service request_id=req-000492 order_id=ORD-48450 status=201 response_time=179ms Request completed successfully
+2026-09-09 23:49:59 INFO payment-service request_id=req-000493 order_id=ORD-97722 status=200 response_time=245ms Request completed successfully
+2026-09-09 23:50:04 WARNING payment-service request_id=req-000494 order_id=ORD-21609 status=200 response_time=2853ms Request completed but response was slow
+2026-09-09 23:50:09 INFO pos-integration request_id=req-000495 order_id=ORD-74895 status=201 response_time=250ms Request completed successfully
+2026-09-09 23:50:14 INFO order-service request_id=req-000496 order_id=ORD-47087 status=200 response_time=54ms Request completed successfully
+2026-09-09 23:50:19 INFO pos-integration request_id=req-000497 order_id=ORD-98287 status=201 response_time=51ms Request completed successfully
+2026-09-09 23:50:24 INFO order-service request_id=req-000498 order_id=ORD-36140 status=201 response_time=178ms Request completed successfully
+2026-09-09 23:50:29 WARNING pos-integration request_id=req-000499 order_id=ORD-10053 status=200 response_time=1695ms Request completed but response was slow
+2026-09-09 23:50:34 INFO customer-service request_id=req-000500 order_id=ORD-30110 status=201 response_time=150ms Request completed successfully
+2026-09-09 23:50:39 INFO payment-service request_id=req-000501 order_id=ORD-64340 status=201 response_time=66ms Request completed successfully
+2026-09-09 23:50:44 INFO pos-integration request_id=req-000502 order_id=ORD-53215 status=200 response_time=264ms Request completed successfully
+2026-09-09 23:50:49 INFO payment-service request_id=req-000503 order_id=ORD-47487 status=200 response_time=53ms Request completed successfully
+2026-09-09 23:50:54 INFO payment-service request_id=req-000504 order_id=ORD-28193 status=201 response_time=44ms Request completed successfully
+2026-09-09 23:50:59 INFO customer-service request_id=req-000505 order_id=ORD-39165 status=201 response_time=270ms Request completed successfully
+2026-09-09 23:51:04 ERROR payment-service request_id=req-000506 order_id=ORD-77775 status=502 response_time=396ms Internal service failure
+2026-09-09 23:51:09 INFO pos-integration request_id=req-000507 order_id=ORD-33084 status=200 response_time=105ms Request completed successfully
+2026-09-09 23:51:14 INFO customer-service request_id=req-000508 order_id=ORD-85137 status=201 response_time=102ms Request completed successfully
+2026-09-09 23:51:19 WARNING order-service request_id=req-000509 order_id=ORD-84398 status=400 response_time=295ms Invalid client request
+2026-09-09 23:51:24 WARNING customer-service request_id=req-000510 order_id=ORD-51017 status=404 response_time=102ms Invalid client request
+2026-09-09 23:51:29 WARNING customer-service request_id=req-000511 order_id=ORD-86505 status=200 response_time=2429ms Request completed but response was slow
+2026-09-09 23:51:34 ERROR pos-integration request_id=req-000512 order_id=ORD-85208 status=503 response_time=1302ms Internal service failure
+2026-09-09 23:51:39 INFO order-service request_id=req-000513 order_id=ORD-91055 status=201 response_time=236ms Request completed successfully
+2026-09-09 23:51:44 INFO pos-integration request_id=req-000514 order_id=ORD-29514 status=200 response_time=236ms Request completed successfully
+2026-09-09 23:51:49 ERROR pos-integration request_id=req-000515 order_id=ORD-24906 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:51:54 INFO pos-integration request_id=req-000516 order_id=ORD-64342 status=201 response_time=300ms Request completed successfully
+2026-09-09 23:51:59 WARNING pos-integration request_id=req-000517 order_id=ORD-51835 status=200 response_time=2531ms Request completed but response was slow
+2026-09-09 23:52:04 INFO customer-service request_id=req-000518 order_id=ORD-66961 status=200 response_time=272ms Request completed successfully
+2026-09-09 23:52:09 WARNING pos-integration request_id=req-000519 order_id=ORD-62169 status=401 response_time=107ms Invalid client request
+2026-09-09 23:52:14 INFO payment-service request_id=req-000520 order_id=ORD-70682 status=200 response_time=91ms Request completed successfully
+2026-09-09 23:52:19 INFO payment-service request_id=req-000521 order_id=ORD-87071 status=200 response_time=178ms Request completed successfully
+2026-09-09 23:52:24 ERROR payment-service request_id=req-000522 order_id=ORD-16033 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:52:29 INFO pos-integration request_id=req-000523 order_id=ORD-71966 status=200 response_time=178ms Request completed successfully
+2026-09-09 23:52:34 WARNING pos-integration request_id=req-000524 order_id=ORD-15073 status=401 response_time=220ms Invalid client request
+2026-09-09 23:52:39 INFO order-service request_id=req-000525 order_id=ORD-66331 status=201 response_time=294ms Request completed successfully
+2026-09-09 23:52:44 ERROR order-service request_id=req-000526 order_id=ORD-50831 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:52:49 INFO pos-integration request_id=req-000527 order_id=ORD-64694 status=201 response_time=289ms Request completed successfully
+2026-09-09 23:52:54 ERROR payment-service request_id=req-000528 order_id=ORD-54920 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:52:59 INFO pos-integration request_id=req-000529 order_id=ORD-99903 status=201 response_time=88ms Request completed successfully
+2026-09-09 23:53:04 INFO order-service request_id=req-000530 order_id=ORD-59680 status=200 response_time=103ms Request completed successfully
+2026-09-09 23:53:09 INFO order-service request_id=req-000531 order_id=ORD-56969 status=200 response_time=257ms Request completed successfully
+2026-09-09 23:53:14 INFO customer-service request_id=req-000532 order_id=ORD-42294 status=200 response_time=29ms Request completed successfully
+2026-09-09 23:53:19 INFO pos-integration request_id=req-000533 order_id=ORD-47130 status=201 response_time=217ms Request completed successfully
+2026-09-09 23:53:24 INFO payment-service request_id=req-000534 order_id=ORD-73691 status=200 response_time=101ms Request completed successfully
+2026-09-09 23:53:29 INFO customer-service request_id=req-000535 order_id=ORD-47360 status=200 response_time=227ms Request completed successfully
+2026-09-09 23:53:34 ERROR customer-service request_id=req-000536 order_id=ORD-43582 status=500 response_time=1156ms Internal service failure
+2026-09-09 23:53:39 INFO pos-integration request_id=req-000537 order_id=ORD-71703 status=200 response_time=293ms Request completed successfully
+2026-09-09 23:53:44 INFO pos-integration request_id=req-000538 order_id=ORD-22433 status=200 response_time=247ms Request completed successfully
+2026-09-09 23:53:49 WARNING payment-service request_id=req-000539 order_id=ORD-56807 status=404 response_time=63ms Invalid client request
+2026-09-09 23:53:54 ERROR order-service request_id=req-000540 order_id=ORD-83720 status=503 response_time=1194ms Internal service failure
+2026-09-09 23:53:59 WARNING customer-service request_id=req-000541 order_id=ORD-91101 status=200 response_time=2372ms Request completed but response was slow
+2026-09-09 23:54:04 INFO pos-integration request_id=req-000542 order_id=ORD-88658 status=200 response_time=32ms Request completed successfully
+2026-09-09 23:54:09 INFO customer-service request_id=req-000543 order_id=ORD-71763 status=200 response_time=48ms Request completed successfully
+2026-09-09 23:54:14 INFO customer-service request_id=req-000544 order_id=ORD-40509 status=201 response_time=258ms Request completed successfully
+2026-09-09 23:54:19 INFO customer-service request_id=req-000545 order_id=ORD-85644 status=200 response_time=114ms Request completed successfully
+2026-09-09 23:54:24 INFO customer-service request_id=req-000546 order_id=ORD-75311 status=201 response_time=244ms Request completed successfully
+2026-09-09 23:54:29 INFO pos-integration request_id=req-000547 order_id=ORD-99563 status=201 response_time=132ms Request completed successfully
+2026-09-09 23:54:34 WARNING order-service request_id=req-000548 order_id=ORD-38581 status=400 response_time=484ms Invalid client request
+2026-09-09 23:54:39 INFO pos-integration request_id=req-000549 order_id=ORD-36066 status=200 response_time=91ms Request completed successfully
+2026-09-09 23:54:44 INFO order-service request_id=req-000550 order_id=ORD-82370 status=200 response_time=80ms Request completed successfully
+2026-09-09 23:54:49 INFO pos-integration request_id=req-000551 order_id=ORD-60717 status=201 response_time=113ms Request completed successfully
+2026-09-09 23:54:54 INFO order-service request_id=req-000552 order_id=ORD-34857 status=201 response_time=185ms Request completed successfully
+2026-09-09 23:54:59 INFO customer-service request_id=req-000553 order_id=ORD-84099 status=200 response_time=245ms Request completed successfully
+2026-09-09 23:55:04 INFO customer-service request_id=req-000554 order_id=ORD-91468 status=200 response_time=216ms Request completed successfully
+2026-09-09 23:55:09 INFO customer-service request_id=req-000555 order_id=ORD-89732 status=201 response_time=150ms Request completed successfully
+2026-09-09 23:55:14 INFO pos-integration request_id=req-000556 order_id=ORD-91463 status=200 response_time=66ms Request completed successfully
+2026-09-09 23:55:19 INFO pos-integration request_id=req-000557 order_id=ORD-33894 status=201 response_time=66ms Request completed successfully
+2026-09-09 23:55:24 INFO customer-service request_id=req-000558 order_id=ORD-58684 status=200 response_time=175ms Request completed successfully
+2026-09-09 23:55:29 INFO customer-service request_id=req-000559 order_id=ORD-90520 status=200 response_time=93ms Request completed successfully
+2026-09-09 23:55:34 WARNING order-service request_id=req-000560 order_id=ORD-71672 status=200 response_time=2563ms Request completed but response was slow
+2026-09-09 23:55:39 ERROR order-service request_id=req-000561 order_id=ORD-47501 status=503 response_time=644ms Internal service failure
+2026-09-09 23:55:44 INFO order-service request_id=req-000562 order_id=ORD-81103 status=200 response_time=32ms Request completed successfully
+2026-09-09 23:55:49 INFO customer-service request_id=req-000563 order_id=ORD-82846 status=200 response_time=285ms Request completed successfully
+2026-09-09 23:55:54 WARNING payment-service request_id=req-000564 order_id=ORD-75371 status=401 response_time=389ms Invalid client request
+2026-09-09 23:55:59 INFO order-service request_id=req-000565 order_id=ORD-84304 status=201 response_time=32ms Request completed successfully
+2026-09-09 23:56:04 INFO pos-integration request_id=req-000566 order_id=ORD-46247 status=201 response_time=79ms Request completed successfully
+2026-09-09 23:56:09 INFO pos-integration request_id=req-000567 order_id=ORD-37988 status=201 response_time=171ms Request completed successfully
+2026-09-09 23:56:14 WARNING customer-service request_id=req-000568 order_id=ORD-27862 status=401 response_time=113ms Invalid client request
+2026-09-09 23:56:19 INFO customer-service request_id=req-000569 order_id=ORD-99749 status=201 response_time=170ms Request completed successfully
+2026-09-09 23:56:24 INFO order-service request_id=req-000570 order_id=ORD-39354 status=201 response_time=273ms Request completed successfully
+2026-09-09 23:56:29 INFO customer-service request_id=req-000571 order_id=ORD-63345 status=200 response_time=154ms Request completed successfully
+2026-09-09 23:56:34 INFO order-service request_id=req-000572 order_id=ORD-72977 status=200 response_time=144ms Request completed successfully
+2026-09-09 23:56:39 WARNING customer-service request_id=req-000573 order_id=ORD-69545 status=200 response_time=2732ms Request completed but response was slow
+2026-09-09 23:56:44 WARNING payment-service request_id=req-000574 order_id=ORD-56652 status=200 response_time=2044ms Request completed but response was slow
+2026-09-09 23:56:49 INFO pos-integration request_id=req-000575 order_id=ORD-37988 status=200 response_time=263ms Request completed successfully
+2026-09-09 23:56:54 INFO pos-integration request_id=req-000576 order_id=ORD-88151 status=200 response_time=221ms Request completed successfully
+2026-09-09 23:56:59 INFO customer-service request_id=req-000577 order_id=ORD-56170 status=201 response_time=134ms Request completed successfully
+2026-09-09 23:57:04 INFO order-service request_id=req-000578 order_id=ORD-96214 status=200 response_time=27ms Request completed successfully
+2026-09-09 23:57:09 INFO pos-integration request_id=req-000579 order_id=ORD-27103 status=200 response_time=33ms Request completed successfully
+2026-09-09 23:57:14 INFO order-service request_id=req-000580 order_id=ORD-45165 status=201 response_time=265ms Request completed successfully
+2026-09-09 23:57:19 INFO pos-integration request_id=req-000581 order_id=ORD-46852 status=201 response_time=67ms Request completed successfully
+2026-09-09 23:57:24 ERROR order-service request_id=req-000582 order_id=ORD-77780 status=503 response_time=1654ms Internal service failure
+2026-09-09 23:57:29 WARNING payment-service request_id=req-000583 order_id=ORD-87469 status=200 response_time=1010ms Request completed but response was slow
+2026-09-09 23:57:34 INFO order-service request_id=req-000584 order_id=ORD-79660 status=201 response_time=221ms Request completed successfully
+2026-09-09 23:57:39 ERROR payment-service request_id=req-000585 order_id=ORD-21227 status=503 response_time=683ms Internal service failure
+2026-09-09 23:57:44 INFO customer-service request_id=req-000586 order_id=ORD-61301 status=201 response_time=263ms Request completed successfully
+2026-09-09 23:57:49 INFO pos-integration request_id=req-000587 order_id=ORD-90698 status=200 response_time=287ms Request completed successfully
+2026-09-09 23:57:54 WARNING payment-service request_id=req-000588 order_id=ORD-12916 status=200 response_time=1936ms Request completed but response was slow
+2026-09-09 23:57:59 INFO order-service request_id=req-000589 order_id=ORD-53530 status=200 response_time=129ms Request completed successfully
+2026-09-09 23:58:04 INFO payment-service request_id=req-000590 order_id=ORD-44827 status=201 response_time=80ms Request completed successfully
+2026-09-09 23:58:09 INFO payment-service request_id=req-000591 order_id=ORD-24383 status=200 response_time=68ms Request completed successfully
+2026-09-09 23:58:14 ERROR customer-service request_id=req-000592 order_id=ORD-87026 status=502 response_time=1310ms Internal service failure
+2026-09-09 23:58:19 INFO order-service request_id=req-000593 order_id=ORD-54844 status=201 response_time=96ms Request completed successfully
+2026-09-09 23:58:24 INFO customer-service request_id=req-000594 order_id=ORD-52971 status=201 response_time=197ms Request completed successfully
+2026-09-09 23:58:29 INFO customer-service request_id=req-000595 order_id=ORD-19468 status=200 response_time=300ms Request completed successfully
+2026-09-09 23:58:34 ERROR customer-service request_id=req-000596 order_id=ORD-61079 status=504 response_time=3000ms Upstream service timeout
+2026-09-09 23:58:39 INFO customer-service request_id=req-000597 order_id=ORD-11064 status=201 response_time=121ms Request completed successfully
+2026-09-09 23:58:44 INFO order-service request_id=req-000598 order_id=ORD-88616 status=201 response_time=258ms Request completed successfully
+2026-09-09 23:58:49 WARNING payment-service request_id=req-000599 order_id=ORD-80311 status=401 response_time=97ms Invalid client request
+2026-09-09 23:58:54 WARNING customer-service request_id=req-000600 order_id=ORD-18512 status=404 response_time=126ms Invalid client request
+2026-09-09 23:58:59 INFO order-service request_id=req-000601 order_id=ORD-24988 status=200 response_time=20ms Request completed successfully
+2026-09-09 23:59:04 INFO customer-service request_id=req-000602 order_id=ORD-15852 status=200 response_time=60ms Request completed successfully
+2026-09-09 23:59:09 INFO payment-service request_id=req-000603 order_id=ORD-12403 status=201 response_time=135ms Request completed successfully
+2026-09-09 23:59:14 WARNING order-service request_id=req-000604 order_id=ORD-48594 status=200 response_time=1808ms Request completed but response was slow
+2026-09-09 23:59:19 INFO pos-integration request_id=req-000605 order_id=ORD-57016 status=201 response_time=142ms Request completed successfully
+2026-09-09 23:59:24 WARNING payment-service request_id=req-000606 order_id=ORD-17484 status=401 response_time=475ms Invalid client request
+2026-09-09 23:59:29 INFO pos-integration request_id=req-000607 order_id=ORD-44923 status=201 response_time=51ms Request completed successfully
+2026-09-09 23:59:34 INFO customer-service request_id=req-000608 order_id=ORD-81044 status=200 response_time=201ms Request completed successfully
+2026-09-09 23:59:39 INFO payment-service request_id=req-000609 order_id=ORD-87638 status=200 response_time=255ms Request completed successfully
+2026-09-09 23:59:44 INFO order-service request_id=req-000610 order_id=ORD-13181 status=201 response_time=62ms Request completed successfully
+2026-09-09 23:59:49 ERROR customer-service request_id=req-000611 order_id=ORD-45993 status=500 response_time=526ms Internal service failure
+2026-09-09 23:59:54 WARNING customer-service request_id=req-000612 order_id=ORD-57122 status=200 response_time=2515ms Request completed but response was slow
+2026-09-09 23:59:59 INFO customer-service request_id=req-000613 order_id=ORD-89161 status=200 response_time=144ms Request completed successfully
+2026-09-10 00:00:04 WARNING pos-integration request_id=req-000614 order_id=ORD-78244 status=200 response_time=2036ms Request completed but response was slow
+2026-09-10 00:00:09 INFO pos-integration request_id=req-000615 order_id=ORD-57925 status=201 response_time=98ms Request completed successfully
+2026-09-10 00:00:14 WARNING customer-service request_id=req-000616 order_id=ORD-41089 status=200 response_time=2301ms Request completed but response was slow
+2026-09-10 00:00:19 INFO order-service request_id=req-000617 order_id=ORD-64642 status=201 response_time=47ms Request completed successfully
+2026-09-10 00:00:24 INFO customer-service request_id=req-000618 order_id=ORD-54177 status=200 response_time=70ms Request completed successfully
+2026-09-10 00:00:29 INFO payment-service request_id=req-000619 order_id=ORD-31035 status=201 response_time=245ms Request completed successfully
+2026-09-10 00:00:34 INFO order-service request_id=req-000620 order_id=ORD-80618 status=201 response_time=28ms Request completed successfully
+2026-09-10 00:00:39 WARNING customer-service request_id=req-000621 order_id=ORD-52084 status=200 response_time=1445ms Request completed but response was slow
+2026-09-10 00:00:44 INFO customer-service request_id=req-000622 order_id=ORD-81290 status=200 response_time=264ms Request completed successfully
+2026-09-10 00:00:49 INFO pos-integration request_id=req-000623 order_id=ORD-81395 status=201 response_time=22ms Request completed successfully
+2026-09-10 00:00:54 INFO order-service request_id=req-000624 order_id=ORD-93300 status=200 response_time=261ms Request completed successfully
+2026-09-10 00:00:59 INFO payment-service request_id=req-000625 order_id=ORD-45858 status=200 response_time=215ms Request completed successfully
+2026-09-10 00:01:04 INFO order-service request_id=req-000626 order_id=ORD-59602 status=201 response_time=163ms Request completed successfully
+2026-09-10 00:01:09 INFO payment-service request_id=req-000627 order_id=ORD-32869 status=201 response_time=133ms Request completed successfully
+2026-09-10 00:01:14 INFO pos-integration request_id=req-000628 order_id=ORD-73955 status=200 response_time=292ms Request completed successfully
+2026-09-10 00:01:19 WARNING customer-service request_id=req-000629 order_id=ORD-33050 status=400 response_time=431ms Invalid client request
+2026-09-10 00:01:24 INFO order-service request_id=req-000630 order_id=ORD-15622 status=201 response_time=286ms Request completed successfully
+2026-09-10 00:01:29 INFO payment-service request_id=req-000631 order_id=ORD-51900 status=200 response_time=222ms Request completed successfully
+2026-09-10 00:01:34 INFO order-service request_id=req-000632 order_id=ORD-89529 status=201 response_time=283ms Request completed successfully
+2026-09-10 00:01:39 INFO customer-service request_id=req-000633 order_id=ORD-20548 status=201 response_time=25ms Request completed successfully
+2026-09-10 00:01:44 ERROR payment-service request_id=req-000634 order_id=ORD-28197 status=502 response_time=1079ms Internal service failure
+2026-09-10 00:01:49 INFO payment-service request_id=req-000635 order_id=ORD-28942 status=200 response_time=102ms Request completed successfully
+2026-09-10 00:01:54 INFO order-service request_id=req-000636 order_id=ORD-14390 status=201 response_time=167ms Request completed successfully
+2026-09-10 00:01:59 INFO pos-integration request_id=req-000637 order_id=ORD-77809 status=200 response_time=255ms Request completed successfully
+2026-09-10 00:02:04 INFO pos-integration request_id=req-000638 order_id=ORD-60795 status=200 response_time=161ms Request completed successfully
+2026-09-10 00:02:09 INFO order-service request_id=req-000639 order_id=ORD-58033 status=200 response_time=168ms Request completed successfully
+2026-09-10 00:02:14 WARNING payment-service request_id=req-000640 order_id=ORD-76890 status=200 response_time=1341ms Request completed but response was slow
+2026-09-10 00:02:19 INFO order-service request_id=req-000641 order_id=ORD-32617 status=201 response_time=239ms Request completed successfully
+2026-09-10 00:02:24 ERROR customer-service request_id=req-000642 order_id=ORD-77178 status=500 response_time=528ms Internal service failure
+2026-09-10 00:02:29 WARNING payment-service request_id=req-000643 order_id=ORD-44836 status=200 response_time=2850ms Request completed but response was slow
+2026-09-10 00:02:34 ERROR customer-service request_id=req-000644 order_id=ORD-66944 status=504 response_time=3000ms Upstream service timeout
+2026-09-10 00:02:39 WARNING order-service request_id=req-000645 order_id=ORD-72841 status=401 response_time=67ms Invalid client request
+2026-09-10 00:02:44 INFO pos-integration request_id=req-000646 order_id=ORD-96223 status=200 response_time=228ms Request completed successfully
+2026-09-10 00:02:49 INFO payment-service request_id=req-000647 order_id=ORD-27096 status=200 response_time=265ms Request completed successfully
+2026-09-10 00:02:54 INFO customer-service request_id=req-000648 order_id=ORD-72764 status=200 response_time=211ms Request completed successfully
+2026-09-10 00:02:59 INFO payment-service request_id=req-000649 order_id=ORD-16771 status=200 response_time=168ms Request completed successfully
+2026-09-10 00:03:04 ERROR customer-service request_id=req-000650 order_id=ORD-95589 status=502 response_time=875ms Internal service failure
+2026-09-10 00:03:09 INFO customer-service request_id=req-000651 order_id=ORD-48337 status=200 response_time=200ms Request completed successfully
+2026-09-10 00:03:14 INFO customer-service request_id=req-000652 order_id=ORD-73704 status=201 response_time=67ms Request completed successfully
+2026-09-10 00:03:19 INFO order-service request_id=req-000653 order_id=ORD-18677 status=201 response_time=187ms Request completed successfully
+2026-09-10 00:03:24 INFO customer-service request_id=req-000654 order_id=ORD-27005 status=201 response_time=171ms Request completed successfully
+2026-09-10 00:03:29 ERROR order-service request_id=req-000655 order_id=ORD-27711 status=500 response_time=1603ms Internal service failure
+2026-09-10 00:03:34 INFO pos-integration request_id=req-000656 order_id=ORD-65710 status=201 response_time=223ms Request completed successfully
+2026-09-10 00:03:39 WARNING order-service request_id=req-000657 order_id=ORD-48630 status=403 response_time=51ms Invalid client request
+2026-09-10 00:03:44 INFO pos-integration request_id=req-000658 order_id=ORD-71354 status=201 response_time=222ms Request completed successfully
+2026-09-10 00:03:49 WARNING order-service request_id=req-000659 order_id=ORD-11074 status=200 response_time=2374ms Request completed but response was slow
+2026-09-10 00:03:54 INFO order-service request_id=req-000660 order_id=ORD-58438 status=200 response_time=238ms Request completed successfully
+2026-09-10 00:03:59 INFO payment-service request_id=req-000661 order_id=ORD-27110 status=200 response_time=68ms Request completed successfully
+2026-09-10 00:04:04 INFO order-service request_id=req-000662 order_id=ORD-84180 status=200 response_time=92ms Request completed successfully
+2026-09-10 00:04:09 INFO customer-service request_id=req-000663 order_id=ORD-37283 status=200 response_time=197ms Request completed successfully
+2026-09-10 00:04:14 INFO customer-service request_id=req-000664 order_id=ORD-61748 status=200 response_time=255ms Request completed successfully
+2026-09-10 00:04:19 INFO payment-service request_id=req-000665 order_id=ORD-40015 status=201 response_time=44ms Request completed successfully
+2026-09-10 00:04:24 INFO customer-service request_id=req-000666 order_id=ORD-70931 status=201 response_time=79ms Request completed successfully
+2026-09-10 00:04:29 WARNING pos-integration request_id=req-000667 order_id=ORD-68210 status=200 response_time=2482ms Request completed but response was slow
+2026-09-10 00:04:34 ERROR payment-service request_id=req-000668 order_id=ORD-77559 status=500 response_time=1581ms Internal service failure
+2026-09-10 00:04:39 INFO payment-service request_id=req-000669 order_id=ORD-61732 status=200 response_time=255ms Request completed successfully
+2026-09-10 00:04:44 INFO customer-service request_id=req-000670 order_id=ORD-91711 status=201 response_time=192ms Request completed successfully
+2026-09-10 00:04:49 INFO customer-service request_id=req-000671 order_id=ORD-62110 status=200 response_time=20ms Request completed successfully
+2026-09-10 00:04:54 ERROR order-service request_id=req-000672 order_id=ORD-86714 status=504 response_time=3000ms Upstream service timeout
+2026-09-10 00:04:59 WARNING customer-service request_id=req-000673 order_id=ORD-17635 status=400 response_time=377ms Invalid client request
+2026-09-10 00:05:04 INFO order-service request_id=req-000674 order_id=ORD-62120 status=200 response_time=20ms Request completed successfully
+2026-09-10 00:05:09 INFO order-service request_id=req-000675 order_id=ORD-79779 status=201 response_time=89ms Request completed successfully
+2026-09-10 00:05:14 INFO customer-service request_id=req-000676 order_id=ORD-25822 status=200 response_time=62ms Request completed successfully
+2026-09-10 00:05:19 INFO customer-service request_id=req-000677 order_id=ORD-42666 status=200 response_time=260ms Request completed successfully
+2026-09-10 00:05:24 INFO payment-service request_id=req-000678 order_id=ORD-80037 status=201 response_time=113ms Request completed successfully
+2026-09-10 00:05:29 WARNING pos-integration request_id=req-000679 order_id=ORD-78900 status=200 response_time=2855ms Request completed but response was slow
+2026-09-10 00:05:34 INFO pos-integration request_id=req-000680 order_id=ORD-92286 status=200 response_time=97ms Request completed successfully
+2026-09-10 00:05:39 INFO order-service request_id=req-000681 order_id=ORD-59042 status=200 response_time=138ms Request completed successfully
+2026-09-10 00:05:44 ERROR pos-integration request_id=req-000682 order_id=ORD-16683 status=500 response_time=300ms Internal service failure
+2026-09-10 00:05:49 WARNING customer-service request_id=req-000683 order_id=ORD-65695 status=200 response_time=1654ms Request completed but response was slow
+2026-09-10 00:05:54 INFO order-service request_id=req-000684 order_id=ORD-85723 status=201 response_time=72ms Request completed successfully
+2026-09-10 00:05:59 INFO pos-integration request_id=req-000685 order_id=ORD-23343 status=201 response_time=179ms Request completed successfully
+2026-09-10 00:06:04 WARNING pos-integration request_id=req-000686 order_id=ORD-69016 status=200 response_time=1981ms Request completed but response was slow
+2026-09-10 00:06:09 WARNING customer-service request_id=req-000687 order_id=ORD-97092 status=403 response_time=178ms Invalid client request
+2026-09-10 00:06:14 INFO payment-service request_id=req-000688 order_id=ORD-41600 status=201 response_time=40ms Request completed successfully
+2026-09-10 00:06:19 INFO order-service request_id=req-000689 order_id=ORD-13885 status=201 response_time=136ms Request completed successfully
+2026-09-10 00:06:24 INFO payment-service request_id=req-000690 order_id=ORD-80351 status=201 response_time=298ms Request completed successfully
+2026-09-10 00:06:29 INFO order-service request_id=req-000691 order_id=ORD-58286 status=200 response_time=293ms Request completed successfully
+2026-09-10 00:06:34 INFO payment-service request_id=req-000692 order_id=ORD-80946 status=200 response_time=237ms Request completed successfully
+2026-09-10 00:06:39 ERROR order-service request_id=req-000693 order_id=ORD-30994 status=502 response_time=1914ms Internal service failure
+2026-09-10 00:06:44 INFO order-service request_id=req-000694 order_id=ORD-16500 status=201 response_time=191ms Request completed successfully
+2026-09-10 00:06:49 INFO customer-service request_id=req-000695 order_id=ORD-82150 status=200 response_time=249ms Request completed successfully
+2026-09-10 00:06:54 INFO pos-integration request_id=req-000696 order_id=ORD-84835 status=201 response_time=26ms Request completed successfully
+2026-09-10 00:06:59 INFO customer-service request_id=req-000697 order_id=ORD-24065 status=200 response_time=233ms Request completed successfully
+2026-09-10 00:07:04 INFO order-service request_id=req-000698 order_id=ORD-57568 status=201 response_time=152ms Request completed successfully
+2026-09-10 00:07:09 INFO order-service request_id=req-000699 order_id=ORD-79077 status=201 response_time=157ms Request completed successfully
+2026-09-10 00:07:14 WARNING pos-integration request_id=req-000700 order_id=ORD-90528 status=401 response_time=450ms Invalid client request
+2026-09-10 00:07:19 ERROR order-service request_id=req-000701 order_id=ORD-33443 status=502 response_time=1587ms Internal service failure
+2026-09-10 00:07:24 INFO order-service request_id=req-000702 order_id=ORD-62630 status=200 response_time=204ms Request completed successfully
+2026-09-10 00:07:29 INFO pos-integration request_id=req-000703 order_id=ORD-75930 status=200 response_time=132ms Request completed successfully
+2026-09-10 00:07:34 INFO payment-service request_id=req-000704 order_id=ORD-23362 status=201 response_time=53ms Request completed successfully
+2026-09-10 00:07:39 INFO payment-service request_id=req-000705 order_id=ORD-87165 status=201 response_time=107ms Request completed successfully
+2026-09-10 00:07:44 INFO pos-integration request_id=req-000706 order_id=ORD-65652 status=200 response_time=35ms Request completed successfully
+2026-09-10 00:07:49 INFO order-service request_id=req-000707 order_id=ORD-53625 status=200 response_time=131ms Request completed successfully
+2026-09-10 00:07:54 ERROR payment-service request_id=req-000708 order_id=ORD-94036 status=504 response_time=3000ms Upstream service timeout
+2026-09-10 00:07:59 INFO payment-service request_id=req-000709 order_id=ORD-91884 status=201 response_time=69ms Request completed successfully
+2026-09-10 00:08:04 INFO customer-service request_id=req-000710 order_id=ORD-30015 status=200 response_time=88ms Request completed successfully
+2026-09-10 00:08:09 WARNING customer-service request_id=req-000711 order_id=ORD-20137 status=200 response_time=2573ms Request completed but response was slow
+2026-09-10 00:08:14 INFO payment-service request_id=req-000712 order_id=ORD-75129 status=200 response_time=66ms Request completed successfully
+2026-09-10 00:08:19 INFO customer-service request_id=req-000713 order_id=ORD-95452 status=201 response_time=117ms Request completed successfully
+2026-09-10 00:08:24 INFO order-service request_id=req-000714 order_id=ORD-57282 status=200 response_time=42ms Request completed successfully
+2026-09-10 00:08:29 INFO customer-service request_id=req-000715 order_id=ORD-68130 status=201 response_time=100ms Request completed successfully
+2026-09-10 00:08:34 INFO order-service request_id=req-000716 order_id=ORD-43054 status=201 response_time=84ms Request completed successfully
+2026-09-10 00:08:39 WARNING pos-integration request_id=req-000717 order_id=ORD-31380 status=200 response_time=1782ms Request completed but response was slow
+2026-09-10 00:08:44 INFO pos-integration request_id=req-000718 order_id=ORD-11996 status=201 response_time=206ms Request completed successfully
+2026-09-10 00:08:49 WARNING pos-integration request_id=req-000719 order_id=ORD-97228 status=200 response_time=1428ms Request completed but response was slow
+2026-09-10 00:08:54 INFO payment-service request_id=req-000720 order_id=ORD-18390 status=201 response_time=204ms Request completed successfully
+2026-09-10 00:08:59 INFO order-service request_id=req-000721 order_id=ORD-51601 status=200 response_time=163ms Request completed successfully
+2026-09-10 00:09:04 WARNING order-service request_id=req-000722 order_id=ORD-92184 status=404 response_time=279ms Invalid client request
+2026-09-10 00:09:09 INFO order-service request_id=req-000723 order_id=ORD-40782 status=201 response_time=280ms Request completed successfully
+2026-09-10 00:09:14 INFO payment-service request_id=req-000724 order_id=ORD-61163 status=201 response_time=104ms Request completed successfully
+2026-09-10 00:09:19 INFO customer-service request_id=req-000725 order_id=ORD-89016 status=200 response_time=118ms Request completed successfully
+2026-09-10 00:09:24 INFO pos-integration request_id=req-000726 order_id=ORD-60978 status=200 response_time=273ms Request completed successfully
+2026-09-10 00:09:29 INFO payment-service request_id=req-000727 order_id=ORD-40724 status=200 response_time=255ms Request completed successfully
+2026-09-10 00:09:34 INFO order-service request_id=req-000728 order_id=ORD-76557 status=201 response_time=95ms Request completed successfully
+2026-09-10 00:09:39 WARNING pos-integration request_id=req-000729 order_id=ORD-24270 status=200 response_time=1250ms Request completed but response was slow
+2026-09-10 00:09:44 INFO pos-integration request_id=req-000730 order_id=ORD-78701 status=200 response_time=227ms Request completed successfully
+2026-09-10 00:09:49 ERROR payment-service request_id=req-000731 order_id=ORD-84919 status=502 response_time=632ms Internal service failure
+2026-09-10 00:09:54 INFO customer-service request_id=req-000732 order_id=ORD-13889 status=200 response_time=57ms Request completed successfully
+2026-09-10 00:09:59 ERROR payment-service request_id=req-000733 order_id=ORD-37722 status=504 response_time=3000ms Upstream service timeout
+2026-09-10 00:10:04 WARNING order-service request_id=req-000734 order_id=ORD-45160 status=200 response_time=1437ms Request completed but response was slow
+2026-09-10 00:10:09 INFO pos-integration request_id=req-000735 order_id=ORD-93992 status=201 response_time=130ms Request completed successfully
+2026-09-10 00:10:14 INFO payment-service request_id=req-000736 order_id=ORD-90730 status=200 response_time=214ms Request completed successfully
+2026-09-10 00:10:19 WARNING payment-service request_id=req-000737 order_id=ORD-84013 status=400 response_time=60ms Invalid client request
+2026-09-10 00:10:24 INFO customer-service request_id=req-000738 order_id=ORD-10898 status=201 response_time=195ms Request completed successfully
+2026-09-10 00:10:29 INFO payment-service request_id=req-000739 order_id=ORD-88163 status=201 response_time=279ms Request completed successfully
+2026-09-10 00:10:34 WARNING order-service request_id=req-000740 order_id=ORD-38549 status=403 response_time=310ms Invalid client request
+2026-09-10 00:10:39 WARNING order-service request_id=req-000741 order_id=ORD-14636 status=404 response_time=344ms Invalid client request
+2026-09-10 00:10:44 INFO pos-integration request_id=req-000742 order_id=ORD-46775 status=201 response_time=137ms Request completed successfully
+2026-09-10 00:10:49 INFO pos-integration request_id=req-000743 order_id=ORD-48221 status=201 response_time=79ms Request completed successfully
+2026-09-10 00:10:54 INFO payment-service request_id=req-000744 order_id=ORD-67878 status=201 response_time=244ms Request completed successfully
+2026-09-10 00:10:59 INFO payment-service request_id=req-000745 order_id=ORD-22704 status=200 response_time=93ms Request completed successfully
+2026-09-10 00:11:04 INFO customer-service request_id=req-000746 order_id=ORD-65952 status=201 response_time=254ms Request completed successfully
+2026-09-10 00:11:09 INFO pos-integration request_id=req-000747 order_id=ORD-39258 status=201 response_time=146ms Request completed successfully
+2026-09-10 00:11:14 INFO pos-integration request_id=req-000748 order_id=ORD-43741 status=200 response_time=105ms Request completed successfully
+2026-09-10 00:11:19 ERROR order-service request_id=req-000749 order_id=ORD-77979 status=504 response_time=3000ms Upstream service timeout
+2026-09-10 00:11:24 INFO payment-service request_id=req-000750 order_id=ORD-77447 status=200 response_time=152ms Request completed successfully
+2026-09-10 00:11:29 INFO payment-service request_id=req-000751 order_id=ORD-21635 status=200 response_time=151ms Request completed successfully
+2026-09-10 00:11:34 INFO payment-service request_id=req-000752 order_id=ORD-10940 status=201 response_time=110ms Request completed successfully
+2026-09-10 00:11:39 INFO pos-integration request_id=req-000753 order_id=ORD-26136 status=201 response_time=280ms Request completed successfully
+2026-09-10 00:11:44 WARNING order-service request_id=req-000754 order_id=ORD-31018 status=200 response_time=1004ms Request completed but response was slow
+2026-09-10 00:11:49 INFO customer-service request_id=req-000755 order_id=ORD-84240 status=200 response_time=146ms Request completed successfully
+2026-09-10 00:11:54 INFO customer-service request_id=req-000756 order_id=ORD-18772 status=200 response_time=158ms Request completed successfully
+2026-09-10 00:11:59 INFO pos-integration request_id=req-000757 order_id=ORD-53303 status=200 response_time=97ms Request completed successfully
+2026-09-10 00:12:04 ERROR pos-integration request_id=req-000758 order_id=ORD-62352 status=504 response_time=3000ms Upstream service timeout
+2026-09-10 00:12:09 WARNING customer-service request_id=req-000759 order_id=ORD-19194 status=401 response_time=304ms Invalid client request
+2026-09-10 00:12:14 INFO customer-service request_id=req-000760 order_id=ORD-46869 status=201 response_time=263ms Request completed successfully
+2026-09-10 00:12:19 INFO customer-service request_id=req-000761 order_id=ORD-78291 status=200 response_time=63ms Request completed successfully
+2026-09-10 00:12:24 INFO payment-service request_id=req-000762 order_id=ORD-96234 status=200 response_time=269ms Request completed successfully
+2026-09-10 00:12:29 ERROR payment-service request_id=req-000763 order_id=ORD-23181 status=502 response_time=364ms Internal service failure
+2026-09-10 00:12:34 INFO pos-integration request_id=req-000764 order_id=ORD-22926 status=201 response_time=178ms Request completed successfully
+2026-09-10 00:12:39 INFO pos-integration request_id=req-000765 order_id=ORD-38174 status=201 response_time=241ms Request completed successfully
+2026-09-10 00:12:44 ERROR customer-service request_id=req-000766 order_id=ORD-41959 status=504 response_time=3000ms Upstream service timeout
+2026-09-10 00:12:49 INFO payment-service request_id=req-000767 order_id=ORD-16994 status=200 response_time=78ms Request completed successfully
+2026-09-10 00:12:54 INFO payment-service request_id=req-000768 order_id=ORD-89358 status=200 response_time=240ms Request completed successfully
+2026-09-10 00:12:59 INFO customer-service request_id=req-000769 order_id=ORD-60454 status=201 response_time=239ms Request completed successfully
+2026-09-10 00:13:04 ERROR customer-service request_id=req-000770 order_id=ORD-96368 status=503 response_time=396ms Internal service failure
+2026-09-10 00:13:09 INFO pos-integration request_id=req-000771 order_id=ORD-23609 status=200 response_time=28ms Request completed successfully
+2026-09-10 00:13:14 INFO pos-integration request_id=req-000772 order_id=ORD-36361 status=201 response_time=143ms Request completed successfully
+2026-09-10 00:13:19 INFO payment-service request_id=req-000773 order_id=ORD-16476 status=200 response_time=169ms Request completed successfully
+2026-09-10 00:13:24 ERROR payment-service request_id=req-000774 order_id=ORD-99451 status=504 response_time=3000ms Upstream service timeout
+2026-09-10 00:13:29 INFO pos-integration request_id=req-000775 order_id=ORD-72090 status=201 response_time=193ms Request completed successfully
+2026-09-10 00:13:34 INFO payment-service request_id=req-000776 order_id=ORD-19089 status=201 response_time=296ms Request completed successfully
+2026-09-10 00:13:39 WARNING customer-service request_id=req-000777 order_id=ORD-90026 status=401 response_time=284ms Invalid client request
+2026-09-10 00:13:44 INFO pos-integration request_id=req-000778 order_id=ORD-83485 status=201 response_time=94ms Request completed successfully
+2026-09-10 00:13:49 INFO customer-service request_id=req-000779 order_id=ORD-52289 status=201 response_time=295ms Request completed successfully
+2026-09-10 00:13:54 INFO order-service request_id=req-000780 order_id=ORD-67975 status=201 response_time=266ms Request completed successfully
+2026-09-10 00:13:59 WARNING payment-service request_id=req-000781 order_id=ORD-35804 status=400 response_time=315ms Invalid client request
+2026-09-10 00:14:04 INFO pos-integration request_id=req-000782 order_id=ORD-45970 status=201 response_time=264ms Request completed successfully
+2026-09-10 00:14:09 INFO pos-integration request_id=req-000783 order_id=ORD-41691 status=200 response_time=223ms Request completed successfully
+2026-09-10 00:14:14 INFO order-service request_id=req-000784 order_id=ORD-17608 status=200 response_time=66ms Request completed successfully
+2026-09-10 00:14:19 WARNING pos-integration request_id=req-000785 order_id=ORD-86903 status=400 response_time=83ms Invalid client request
+2026-09-10 00:14:24 INFO order-service request_id=req-000786 order_id=ORD-67570 status=200 response_time=90ms Request completed successfully
+2026-09-10 00:14:29 WARNING customer-service request_id=req-000787 order_id=ORD-40014 status=403 response_time=99ms Invalid client request
+2026-09-10 00:14:34 INFO payment-service request_id=req-000788 order_id=ORD-75581 status=201 response_time=265ms Request completed successfully
+2026-09-10 00:14:39 WARNING customer-service request_id=req-000789 order_id=ORD-17047 status=200 response_time=2297ms Request completed but response was slow
+2026-09-10 00:14:44 INFO customer-service request_id=req-000790 order_id=ORD-75348 status=200 response_time=78ms Request completed successfully
+2026-09-10 00:14:49 ERROR payment-service request_id=req-000791 order_id=ORD-56145 status=504 response_time=3000ms Upstream service timeout
+2026-09-10 00:14:54 INFO customer-service request_id=req-000792 order_id=ORD-34101 status=200 response_time=158ms Request completed successfully
+2026-09-10 00:14:59 INFO pos-integration request_id=req-000793 order_id=ORD-39670 status=200 response_time=21ms Request completed successfully
+2026-09-10 00:15:04 INFO customer-service request_id=req-000794 order_id=ORD-57351 status=201 response_time=46ms Request completed successfully
+2026-09-10 00:15:09 INFO order-service request_id=req-000795 order_id=ORD-68410 status=200 response_time=164ms Request completed successfully
+2026-09-10 00:15:14 INFO customer-service request_id=req-000796 order_id=ORD-74070 status=201 response_time=97ms Request completed successfully
+2026-09-10 00:15:19 ERROR pos-integration request_id=req-000797 order_id=ORD-66710 status=504 response_time=3000ms Upstream service timeout
+2026-09-10 00:15:24 INFO customer-service request_id=req-000798 order_id=ORD-16640 status=200 response_time=290ms Request completed successfully
+2026-09-10 00:15:29 INFO customer-service request_id=req-000799 order_id=ORD-49526 status=200 response_time=254ms Request completed successfully
+2026-09-10 00:15:34 WARNING pos-integration request_id=req-000800 order_id=ORD-71931 status=200 response_time=1965ms Request completed but response was slow
+2026-09-10 00:15:39 INFO payment-service request_id=req-000801 order_id=ORD-59378 status=200 response_time=259ms Request completed successfully
+2026-09-10 00:15:44 INFO order-service request_id=req-000802 order_id=ORD-49235 status=201 response_time=300ms Request completed successfully
+2026-09-10 00:15:49 ERROR customer-service request_id=req-000803 order_id=ORD-14767 status=500 response_time=1660ms Internal service failure
+2026-09-10 00:15:54 WARNING pos-integration request_id=req-000804 order_id=ORD-16266 status=200 response_time=1163ms Request completed but response was slow
+2026-09-10 00:15:59 INFO customer-service request_id=req-000805 order_id=ORD-33320 status=201 response_time=298ms Request completed successfully
+2026-09-10 00:16:04 INFO payment-service request_id=req-000806 order_id=ORD-40297 status=201 response_time=270ms Request completed successfully
+2026-09-10 00:16:09 ERROR customer-service request_id=req-000807 order_id=ORD-77984 status=504 response_time=3000ms Upstream service timeout
+2026-09-10 00:16:14 INFO payment-service request_id=req-000808 order_id=ORD-45528 status=201 response_time=212ms Request completed successfully
+2026-09-10 00:16:19 WARNING pos-integration request_id=req-000809 order_id=ORD-90742 status=200 response_time=1367ms Request completed but response was slow
+2026-09-10 00:16:24 ERROR pos-integration request_id=req-000810 order_id=ORD-42443 status=502 response_time=828ms Internal service failure
+2026-09-10 00:16:29 INFO pos-integration request_id=req-000811 order_id=ORD-59604 status=200 response_time=195ms Request completed successfully
+2026-09-10 00:16:34 INFO order-service request_id=req-000812 order_id=ORD-82346 status=201 response_time=176ms Request completed successfully
+2026-09-10 00:16:39 WARNING payment-service request_id=req-000813 order_id=ORD-98148 status=200 response_time=2693ms Request completed but response was slow
+2026-09-10 00:16:44 INFO pos-integration request_id=req-000814 order_id=ORD-87170 status=200 response_time=224ms Request completed successfully
+2026-09-10 00:16:49 WARNING order-service request_id=req-000815 order_id=ORD-79947 status=400 response_time=428ms Invalid client request
+2026-09-10 00:16:54 WARNING customer-service request_id=req-000816 order_id=ORD-27889 status=200 response_time=1095ms Request completed but response was slow
+2026-09-10 00:16:59 INFO payment-service request_id=req-000817 order_id=ORD-27514 status=201 response_time=102ms Request completed successfully
+2026-09-10 00:17:04 WARNING payment-service request_id=req-000818 order_id=ORD-51438 status=200 response_time=1411ms Request completed but response was slow
+2026-09-10 00:17:09 INFO payment-service request_id=req-000819 order_id=ORD-13538 status=200 response_time=273ms Request completed successfully
+2026-09-10 00:17:14 INFO customer-service request_id=req-000820 order_id=ORD-31289 status=201 response_time=31ms Request completed successfully
+2026-09-10 00:17:19 INFO customer-service request_id=req-000821 order_id=ORD-84481 status=200 response_time=89ms Request completed successfully
+2026-09-10 00:17:24 INFO payment-service request_id=req-000822 order_id=ORD-20343 status=200 response_time=117ms Request completed successfully
+2026-09-10 00:17:29 WARNING payment-service request_id=req-000823 order_id=ORD-81763 status=400 response_time=91ms Invalid client request
+2026-09-10 00:17:34 INFO pos-integration request_id=req-000824 order_id=ORD-62160 status=201 response_time=101ms Request completed successfully
+2026-09-10 00:17:39 ERROR customer-service request_id=req-000825 order_id=ORD-90674 status=504 response_time=3000ms Upstream service timeout
+2026-09-10 00:17:44 WARNING payment-service request_id=req-000826 order_id=ORD-40421 status=403 response_time=339ms Invalid client request
+2026-09-10 00:17:49 ERROR customer-service request_id=req-000827 order_id=ORD-80287 status=500 response_time=1920ms Internal service failure
+2026-09-10 00:17:54 INFO order-service request_id=req-000828 order_id=ORD-88863 status=200 response_time=45ms Request completed successfully
+2026-09-10 00:17:59 ERROR payment-service request_id=req-000829 order_id=ORD-67892 status=504 response_time=3000ms Upstream service timeout
+2026-09-10 00:18:04 INFO order-service request_id=req-000830 order_id=ORD-25611 status=201 response_time=46ms Request completed successfully
+2026-09-10 00:18:09 ERROR pos-integration request_id=req-000831 order_id=ORD-19865 status=504 response_time=3000ms Upstream service timeout
+2026-09-10 00:18:14 WARNING customer-service request_id=req-000832 order_id=ORD-66951 status=200 response_time=2298ms Request completed but response was slow
+2026-09-10 00:18:19 INFO pos-integration request_id=req-000833 order_id=ORD-79825 status=201 response_time=139ms Request completed successfully
+2026-09-10 00:18:24 INFO order-service request_id=req-000834 order_id=ORD-92585 status=201 response_time=146ms Request completed successfully
+2026-09-10 00:18:29 ERROR payment-service request_id=req-000835 order_id=ORD-34383 status=504 response_time=3000ms Upstream service timeout
+2026-09-10 00:18:34 WARNING order-service request_id=req-000836 order_id=ORD-71501 status=200 response_time=1810ms Request completed but response was slow
+2026-09-10 00:18:39 INFO order-service request_id=req-000837 order_id=ORD-10577 status=201 response_time=39ms Request completed successfully
+2026-09-10 00:18:44 INFO payment-service request_id=req-000838 order_id=ORD-45193 status=201 response_time=148ms Request completed successfully
+2026-09-10 00:18:49 INFO customer-service request_id=req-000839 order_id=ORD-73621 status=200 response_time=43ms Request completed successfully
+2026-09-10 00:18:54 INFO order-service request_id=req-000840 order_id=ORD-16184 status=201 response_time=100ms Request completed successfully
+2026-09-10 00:18:59 INFO customer-service request_id=req-000841 order_id=ORD-71982 status=201 response_time=63ms Request completed successfully
+2026-09-10 00:19:04 INFO payment-service request_id=req-000842 order_id=ORD-72200 status=201 response_time=284ms Request completed successfully
+2026-09-10 00:19:09 INFO customer-service request_id=req-000843 order_id=ORD-33422 status=201 response_time=24ms Request completed successfully
+2026-09-10 00:19:14 INFO payment-service request_id=req-000844 order_id=ORD-44894 status=200 response_time=228ms Request completed successfully
+2026-09-10 00:19:19 INFO customer-service request_id=req-000845 order_id=ORD-97759 status=201 response_time=152ms Request completed successfully
+2026-09-10 00:19:24 INFO customer-service request_id=req-000846 order_id=ORD-56033 status=200 response_time=75ms Request completed successfully
+2026-09-10 00:19:29 ERROR pos-integration request_id=req-000847 order_id=ORD-81372 status=503 response_time=680ms Internal service failure
+2026-09-10 00:19:34 INFO payment-service request_id=req-000848 order_id=ORD-74021 status=201 response_time=124ms Request completed successfully
+2026-09-10 00:19:39 WARNING payment-service request_id=req-000849 order_id=ORD-38979 status=200 response_time=2959ms Request completed but response was slow
+2026-09-10 00:19:44 INFO order-service request_id=req-000850 order_id=ORD-96749 status=200 response_time=268ms Request completed successfully
+2026-09-10 00:19:49 INFO pos-integration request_id=req-000851 order_id=ORD-33891 status=201 response_time=155ms Request completed successfully
+2026-09-10 00:19:54 INFO pos-integration request_id=req-000852 order_id=ORD-54182 status=201 response_time=113ms Request completed successfully
+2026-09-10 00:19:59 ERROR payment-service request_id=req-000853 order_id=ORD-34072 status=504 response_time=3000ms Upstream service timeout
+2026-09-10 00:20:04 WARNING order-service request_id=req-000854 order_id=ORD-99087 status=404 response_time=281ms Invalid client request
+2026-09-10 00:20:09 WARNING order-service request_id=req-000855 order_id=ORD-33440 status=400 response_time=134ms Invalid client request
+2026-09-10 00:20:14 INFO customer-service request_id=req-000856 order_id=ORD-69851 status=200 response_time=241ms Request completed successfully
+2026-09-10 00:20:19 INFO payment-service request_id=req-000857 order_id=ORD-57812 status=201 response_time=112ms Request completed successfully
+2026-09-10 00:20:24 INFO pos-integration request_id=req-000858 order_id=ORD-68259 status=200 response_time=285ms Request completed successfully
+2026-09-10 00:20:29 INFO pos-integration request_id=req-000859 order_id=ORD-62640 status=201 response_time=111ms Request completed successfully
+2026-09-10 00:20:34 WARNING payment-service request_id=req-000860 order_id=ORD-69844 status=200 response_time=2906ms Request completed but response was slow
+2026-09-10 00:20:39 INFO order-service request_id=req-000861 order_id=ORD-20464 status=200 response_time=261ms Request completed successfully
+2026-09-10 00:20:44 WARNING payment-service request_id=req-000862 order_id=ORD-80505 status=200 response_time=2279ms Request completed but response was slow
+2026-09-10 00:20:49 INFO payment-service request_id=req-000863 order_id=ORD-81754 status=201 response_time=151ms Request completed successfully
+2026-09-10 00:20:54 INFO payment-service request_id=req-000864 order_id=ORD-46004 status=201 response_time=60ms Request completed successfully
+2026-09-10 00:20:59 INFO customer-service request_id=req-000865 order_id=ORD-21844 status=201 response_time=184ms Request completed successfully
+2026-09-10 00:21:04 INFO order-service request_id=req-000866 order_id=ORD-30017 status=201 response_time=138ms Request completed successfully
+2026-09-10 00:21:09 INFO pos-integration request_id=req-000867 order_id=ORD-27413 status=201 response_time=111ms Request completed successfully
+2026-09-10 00:21:14 INFO payment-service request_id=req-000868 order_id=ORD-15506 status=200 response_time=240ms Request completed successfully
+2026-09-10 00:21:19 INFO order-service request_id=req-000869 order_id=ORD-78060 status=200 response_time=208ms Request completed successfully
+2026-09-10 00:21:24 WARNING order-service request_id=req-000870 order_id=ORD-79442 status=200 response_time=2580ms Request completed but response was slow
+2026-09-10 00:21:29 INFO pos-integration request_id=req-000871 order_id=ORD-93583 status=200 response_time=20ms Request completed successfully
+2026-09-10 00:21:34 WARNING pos-integration request_id=req-000872 order_id=ORD-35011 status=401 response_time=450ms Invalid client request
+2026-09-10 00:21:39 INFO order-service request_id=req-000873 order_id=ORD-95735 status=200 response_time=97ms Request completed successfully
+2026-09-10 00:21:44 INFO pos-integration request_id=req-000874 order_id=ORD-66967 status=201 response_time=124ms Request completed successfully
+2026-09-10 00:21:49 ERROR order-service request_id=req-000875 order_id=ORD-70785 status=504 response_time=3000ms Upstream service timeout
+2026-09-10 00:21:54 WARNING customer-service request_id=req-000876 order_id=ORD-98611 status=400 response_time=133ms Invalid client request
+2026-09-10 00:21:59 WARNING order-service request_id=req-000877 order_id=ORD-59768 status=400 response_time=280ms Invalid client request
+2026-09-10 00:22:04 ERROR payment-service request_id=req-000878 order_id=ORD-15931 status=502 response_time=1868ms Internal service failure
+2026-09-10 00:22:09 INFO payment-service request_id=req-000879 order_id=ORD-70057 status=200 response_time=25ms Request completed successfully
+2026-09-10 00:22:14 INFO pos-integration request_id=req-000880 order_id=ORD-93460 status=201 response_time=184ms Request completed successfully
+2026-09-10 00:22:19 INFO payment-service request_id=req-000881 order_id=ORD-11763 status=200 response_time=56ms Request completed successfully
+2026-09-10 00:22:24 WARNING customer-service request_id=req-000882 order_id=ORD-27705 status=200 response_time=1358ms Request completed but response was slow
+2026-09-10 00:22:29 INFO order-service request_id=req-000883 order_id=ORD-31747 status=200 response_time=164ms Request completed successfully
+2026-09-10 00:22:34 INFO customer-service request_id=req-000884 order_id=ORD-86830 status=200 response_time=103ms Request completed successfully
+2026-09-10 00:22:39 INFO pos-integration request_id=req-000885 order_id=ORD-58922 status=201 response_time=294ms Request completed successfully
+2026-09-10 00:22:44 INFO pos-integration request_id=req-000886 order_id=ORD-64880 status=201 response_time=142ms Request completed successfully
+2026-09-10 00:22:49 INFO pos-integration request_id=req-000887 order_id=ORD-50160 status=200 response_time=40ms Request completed successfully
+2026-09-10 00:22:54 INFO payment-service request_id=req-000888 order_id=ORD-76091 status=201 response_time=243ms Request completed successfully
+2026-09-10 00:22:59 INFO customer-service request_id=req-000889 order_id=ORD-96486 status=200 response_time=149ms Request completed successfully
+2026-09-10 00:23:04 INFO payment-service request_id=req-000890 order_id=ORD-65963 status=200 response_time=261ms Request completed successfully
+2026-09-10 00:23:09 INFO payment-service request_id=req-000891 order_id=ORD-85574 status=200 response_time=49ms Request completed successfully
+2026-09-10 00:23:14 INFO order-service request_id=req-000892 order_id=ORD-93251 status=200 response_time=233ms Request completed successfully
+2026-09-10 00:23:19 INFO customer-service request_id=req-000893 order_id=ORD-15399 status=201 response_time=284ms Request completed successfully
+2026-09-10 00:23:24 INFO customer-service request_id=req-000894 order_id=ORD-74141 status=201 response_time=36ms Request completed successfully
+2026-09-10 00:23:29 INFO payment-service request_id=req-000895 order_id=ORD-43967 status=200 response_time=42ms Request completed successfully
+2026-09-10 00:23:34 INFO customer-service request_id=req-000896 order_id=ORD-67209 status=201 response_time=190ms Request completed successfully
+2026-09-10 00:23:39 INFO pos-integration request_id=req-000897 order_id=ORD-22510 status=200 response_time=25ms Request completed successfully
+2026-09-10 00:23:44 INFO order-service request_id=req-000898 order_id=ORD-88538 status=200 response_time=151ms Request completed successfully
+2026-09-10 00:23:49 WARNING order-service request_id=req-000899 order_id=ORD-96904 status=401 response_time=416ms Invalid client request
+2026-09-10 00:23:54 INFO payment-service request_id=req-000900 order_id=ORD-54948 status=200 response_time=182ms Request completed successfully
+2026-09-10 00:23:59 INFO payment-service request_id=req-000901 order_id=ORD-75233 status=200 response_time=37ms Request completed successfully
+2026-09-10 00:24:04 INFO customer-service request_id=req-000902 order_id=ORD-33253 status=200 response_time=278ms Request completed successfully
+2026-09-10 00:24:09 WARNING order-service request_id=req-000903 order_id=ORD-99836 status=400 response_time=357ms Invalid client request
+2026-09-10 00:24:14 INFO pos-integration request_id=req-000904 order_id=ORD-45174 status=200 response_time=274ms Request completed successfully
+2026-09-10 00:24:19 INFO customer-service request_id=req-000905 order_id=ORD-17139 status=200 response_time=209ms Request completed successfully
+2026-09-10 00:24:24 INFO pos-integration request_id=req-000906 order_id=ORD-73065 status=200 response_time=214ms Request completed successfully
+2026-09-10 00:24:29 INFO order-service request_id=req-000907 order_id=ORD-17860 status=201 response_time=101ms Request completed successfully
+2026-09-10 00:24:34 INFO payment-service request_id=req-000908 order_id=ORD-68623 status=200 response_time=46ms Request completed successfully
+2026-09-10 00:24:39 WARNING customer-service request_id=req-000909 order_id=ORD-56616 status=200 response_time=1656ms Request completed but response was slow
+2026-09-10 00:24:44 WARNING payment-service request_id=req-000910 order_id=ORD-82223 status=403 response_time=153ms Invalid client request
+2026-09-10 00:24:49 WARNING payment-service request_id=req-000911 order_id=ORD-83026 status=200 response_time=2021ms Request completed but response was slow
+2026-09-10 00:24:54 INFO order-service request_id=req-000912 order_id=ORD-36818 status=200 response_time=261ms Request completed successfully
+2026-09-10 00:24:59 WARNING payment-service request_id=req-000913 order_id=ORD-34441 status=200 response_time=1895ms Request completed but response was slow
+2026-09-10 00:25:04 INFO pos-integration request_id=req-000914 order_id=ORD-57104 status=200 response_time=230ms Request completed successfully
+2026-09-10 00:25:09 INFO customer-service request_id=req-000915 order_id=ORD-96699 status=201 response_time=158ms Request completed successfully
+2026-09-10 00:25:14 WARNING order-service request_id=req-000916 order_id=ORD-76252 status=400 response_time=151ms Invalid client request
+2026-09-10 00:25:19 INFO customer-service request_id=req-000917 order_id=ORD-51776 status=200 response_time=244ms Request completed successfully
+2026-09-10 00:25:24 INFO payment-service request_id=req-000918 order_id=ORD-46092 status=201 response_time=72ms Request completed successfully
+2026-09-10 00:25:29 INFO order-service request_id=req-000919 order_id=ORD-61625 status=200 response_time=288ms Request completed successfully
+2026-09-10 00:25:34 INFO order-service request_id=req-000920 order_id=ORD-85497 status=200 response_time=173ms Request completed successfully
+2026-09-10 00:25:39 WARNING payment-service request_id=req-000921 order_id=ORD-42977 status=200 response_time=2063ms Request completed but response was slow
+2026-09-10 00:25:44 INFO payment-service request_id=req-000922 order_id=ORD-43597 status=200 response_time=242ms Request completed successfully
+2026-09-10 00:25:49 WARNING payment-service request_id=req-000923 order_id=ORD-85215 status=404 response_time=456ms Invalid client request
+2026-09-10 00:25:54 WARNING order-service request_id=req-000924 order_id=ORD-40095 status=200 response_time=2382ms Request completed but response was slow
+2026-09-10 00:25:59 INFO pos-integration request_id=req-000925 order_id=ORD-86067 status=201 response_time=164ms Request completed successfully
+2026-09-10 00:26:04 INFO payment-service request_id=req-000926 order_id=ORD-36143 status=201 response_time=62ms Request completed successfully
+2026-09-10 00:26:09 INFO order-service request_id=req-000927 order_id=ORD-51527 status=200 response_time=140ms Request completed successfully
+2026-09-10 00:26:14 INFO payment-service request_id=req-000928 order_id=ORD-74071 status=200 response_time=129ms Request completed successfully
+2026-09-10 00:26:19 INFO order-service request_id=req-000929 order_id=ORD-70617 status=200 response_time=98ms Request completed successfully
+2026-09-10 00:26:24 ERROR order-service request_id=req-000930 order_id=ORD-45121 status=504 response_time=3000ms Upstream service timeout
+2026-09-10 00:26:29 WARNING payment-service request_id=req-000931 order_id=ORD-21341 status=404 response_time=323ms Invalid client request
+2026-09-10 00:26:34 INFO customer-service request_id=req-000932 order_id=ORD-35979 status=200 response_time=36ms Request completed successfully
+2026-09-10 00:26:39 INFO pos-integration request_id=req-000933 order_id=ORD-42369 status=200 response_time=238ms Request completed successfully
+2026-09-10 00:26:44 WARNING customer-service request_id=req-000934 order_id=ORD-69923 status=400 response_time=429ms Invalid client request
+2026-09-10 00:26:49 INFO pos-integration request_id=req-000935 order_id=ORD-41843 status=200 response_time=61ms Request completed successfully
+2026-09-10 00:26:54 ERROR customer-service request_id=req-000936 order_id=ORD-48595 status=500 response_time=1593ms Internal service failure
+2026-09-10 00:26:59 ERROR payment-service request_id=req-000937 order_id=ORD-34269 status=504 response_time=3000ms Upstream service timeout
+2026-09-10 00:27:04 INFO customer-service request_id=req-000938 order_id=ORD-11055 status=200 response_time=131ms Request completed successfully
+2026-09-10 00:27:09 INFO pos-integration request_id=req-000939 order_id=ORD-26874 status=201 response_time=81ms Request completed successfully
+2026-09-10 00:27:14 ERROR payment-service request_id=req-000940 order_id=ORD-72669 status=504 response_time=3000ms Upstream service timeout
+2026-09-10 00:27:19 INFO customer-service request_id=req-000941 order_id=ORD-17085 status=200 response_time=214ms Request completed successfully
+2026-09-10 00:27:24 INFO customer-service request_id=req-000942 order_id=ORD-87048 status=201 response_time=156ms Request completed successfully
+2026-09-10 00:27:29 WARNING payment-service request_id=req-000943 order_id=ORD-90568 status=200 response_time=1205ms Request completed but response was slow
+2026-09-10 00:27:34 INFO order-service request_id=req-000944 order_id=ORD-17844 status=201 response_time=228ms Request completed successfully
+2026-09-10 00:27:39 INFO customer-service request_id=req-000945 order_id=ORD-47577 status=200 response_time=26ms Request completed successfully
+2026-09-10 00:27:44 INFO customer-service request_id=req-000946 order_id=ORD-76408 status=200 response_time=73ms Request completed successfully
+2026-09-10 00:27:49 INFO customer-service request_id=req-000947 order_id=ORD-76635 status=201 response_time=114ms Request completed successfully
+2026-09-10 00:27:54 INFO order-service request_id=req-000948 order_id=ORD-13968 status=201 response_time=181ms Request completed successfully
+2026-09-10 00:27:59 INFO customer-service request_id=req-000949 order_id=ORD-60243 status=201 response_time=124ms Request completed successfully
+2026-09-10 00:28:04 WARNING customer-service request_id=req-000950 order_id=ORD-93128 status=200 response_time=2587ms Request completed but response was slow
+2026-09-10 00:28:09 WARNING payment-service request_id=req-000951 order_id=ORD-42429 status=404 response_time=219ms Invalid client request
+2026-09-10 00:28:14 WARNING customer-service request_id=req-000952 order_id=ORD-83224 status=200 response_time=2112ms Request completed but response was slow
+2026-09-10 00:28:19 INFO order-service request_id=req-000953 order_id=ORD-67792 status=200 response_time=249ms Request completed successfully
+2026-09-10 00:28:24 INFO customer-service request_id=req-000954 order_id=ORD-32081 status=200 response_time=179ms Request completed successfully
+2026-09-10 00:28:29 INFO customer-service request_id=req-000955 order_id=ORD-23933 status=201 response_time=258ms Request completed successfully
+2026-09-10 00:28:34 INFO customer-service request_id=req-000956 order_id=ORD-26146 status=201 response_time=218ms Request completed successfully
+2026-09-10 00:28:39 INFO pos-integration request_id=req-000957 order_id=ORD-67865 status=200 response_time=111ms Request completed successfully
+2026-09-10 00:28:44 INFO order-service request_id=req-000958 order_id=ORD-22613 status=200 response_time=234ms Request completed successfully
+2026-09-10 00:28:49 ERROR payment-service request_id=req-000959 order_id=ORD-65651 status=500 response_time=905ms Internal service failure
+2026-09-10 00:28:54 INFO order-service request_id=req-000960 order_id=ORD-75156 status=200 response_time=215ms Request completed successfully
+2026-09-10 00:28:59 INFO customer-service request_id=req-000961 order_id=ORD-99743 status=201 response_time=229ms Request completed successfully
+2026-09-10 00:29:04 INFO order-service request_id=req-000962 order_id=ORD-19423 status=200 response_time=208ms Request completed successfully
+2026-09-10 00:29:09 INFO pos-integration request_id=req-000963 order_id=ORD-79987 status=201 response_time=85ms Request completed successfully
+2026-09-10 00:29:14 WARNING payment-service request_id=req-000964 order_id=ORD-35350 status=404 response_time=348ms Invalid client request
+2026-09-10 00:29:19 INFO pos-integration request_id=req-000965 order_id=ORD-53958 status=201 response_time=257ms Request completed successfully
+2026-09-10 00:29:24 INFO order-service request_id=req-000966 order_id=ORD-44097 status=200 response_time=50ms Request completed successfully
+2026-09-10 00:29:29 INFO pos-integration request_id=req-000967 order_id=ORD-72627 status=200 response_time=150ms Request completed successfully
+2026-09-10 00:29:34 INFO pos-integration request_id=req-000968 order_id=ORD-14506 status=201 response_time=281ms Request completed successfully
+2026-09-10 00:29:39 INFO payment-service request_id=req-000969 order_id=ORD-17893 status=200 response_time=50ms Request completed successfully
+2026-09-10 00:29:44 ERROR payment-service request_id=req-000970 order_id=ORD-53118 status=504 response_time=3000ms Upstream service timeout
+2026-09-10 00:29:49 INFO payment-service request_id=req-000971 order_id=ORD-57734 status=200 response_time=234ms Request completed successfully
+2026-09-10 00:29:54 INFO customer-service request_id=req-000972 order_id=ORD-68715 status=201 response_time=287ms Request completed successfully
+2026-09-10 00:29:59 INFO order-service request_id=req-000973 order_id=ORD-75925 status=200 response_time=173ms Request completed successfully
+2026-09-10 00:30:04 INFO customer-service request_id=req-000974 order_id=ORD-17082 status=200 response_time=260ms Request completed successfully
+2026-09-10 00:30:09 WARNING payment-service request_id=req-000975 order_id=ORD-65871 status=200 response_time=1628ms Request completed but response was slow
+2026-09-10 00:30:14 ERROR pos-integration request_id=req-000976 order_id=ORD-73788 status=504 response_time=3000ms Upstream service timeout
+2026-09-10 00:30:19 INFO pos-integration request_id=req-000977 order_id=ORD-76698 status=200 response_time=262ms Request completed successfully
+2026-09-10 00:30:24 INFO customer-service request_id=req-000978 order_id=ORD-67125 status=201 response_time=113ms Request completed successfully
+2026-09-10 00:30:29 ERROR customer-service request_id=req-000979 order_id=ORD-81729 status=504 response_time=3000ms Upstream service timeout
+2026-09-10 00:30:34 WARNING order-service request_id=req-000980 order_id=ORD-54744 status=404 response_time=434ms Invalid client request
+2026-09-10 00:30:39 INFO order-service request_id=req-000981 order_id=ORD-92929 status=201 response_time=266ms Request completed successfully
+2026-09-10 00:30:44 INFO payment-service request_id=req-000982 order_id=ORD-91302 status=200 response_time=158ms Request completed successfully
+2026-09-10 00:30:49 WARNING pos-integration request_id=req-000983 order_id=ORD-87865 status=404 response_time=397ms Invalid client request
+2026-09-10 00:30:54 INFO pos-integration request_id=req-000984 order_id=ORD-52136 status=201 response_time=198ms Request completed successfully
+2026-09-10 00:30:59 INFO order-service request_id=req-000985 order_id=ORD-93466 status=201 response_time=194ms Request completed successfully
+2026-09-10 00:31:04 WARNING pos-integration request_id=req-000986 order_id=ORD-95184 status=400 response_time=267ms Invalid client request
+2026-09-10 00:31:09 INFO payment-service request_id=req-000987 order_id=ORD-44392 status=201 response_time=236ms Request completed successfully
+2026-09-10 00:31:14 INFO payment-service request_id=req-000988 order_id=ORD-24249 status=201 response_time=161ms Request completed successfully
+2026-09-10 00:31:19 INFO order-service request_id=req-000989 order_id=ORD-81727 status=200 response_time=262ms Request completed successfully
+2026-09-10 00:31:24 ERROR payment-service request_id=req-000990 order_id=ORD-76650 status=500 response_time=1770ms Internal service failure
+2026-09-10 00:31:29 INFO payment-service request_id=req-000991 order_id=ORD-14686 status=201 response_time=245ms Request completed successfully
+2026-09-10 00:31:34 INFO order-service request_id=req-000992 order_id=ORD-47061 status=200 response_time=209ms Request completed successfully
+2026-09-10 00:31:39 WARNING order-service request_id=req-000993 order_id=ORD-48861 status=400 response_time=470ms Invalid client request
+2026-09-10 00:31:44 INFO pos-integration request_id=req-000994 order_id=ORD-69324 status=200 response_time=156ms Request completed successfully
+2026-09-10 00:31:49 WARNING payment-service request_id=req-000995 order_id=ORD-65655 status=404 response_time=64ms Invalid client request
+2026-09-10 00:31:54 INFO pos-integration request_id=req-000996 order_id=ORD-82093 status=201 response_time=213ms Request completed successfully
+2026-09-10 00:31:59 WARNING pos-integration request_id=req-000997 order_id=ORD-77088 status=200 response_time=1070ms Request completed but response was slow
+2026-09-10 00:32:04 INFO pos-integration request_id=req-000998 order_id=ORD-44052 status=200 response_time=170ms Request completed successfully
+2026-09-10 00:32:09 INFO payment-service request_id=req-000999 order_id=ORD-38958 status=201 response_time=39ms Request completed successfully
+2026-09-10 00:32:14 INFO payment-service request_id=req-001000 order_id=ORD-28243 status=200 response_time=32ms Request completed successfully
