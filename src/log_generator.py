@@ -4,53 +4,30 @@ from pathlib import Path
 
 
 SERVICES = [
+    "pos-integration",
     "order-service",
     "payment-service",
-    "customer-service",
-    "pos-integration",
 ]
 
+FLOW_TYPES = [
+    "success",
+    "payment_failure",
+    "payment_timeout",
+]
 
-def generate_log(timestamp, request_id, order_id):
-    # Decide what kind of event happens
-    event_type = random.choices(
-        ["success", "slow", "client_error", "server_error", "timeout"],
-        weights=[70, 10, 8, 7, 5],
-        k=1,
-    )[0]
+FLOW_WEIGHTS = [75, 15, 10]
 
-    service = random.choice(SERVICES)
 
-    if event_type == "success":
-        level = "INFO"
-        status_code = random.choice([200, 201])
-        response_time = random.randint(20, 300)
-        message = "Request completed successfully"
-
-    elif event_type == "slow":
-        level = "WARNING"
-        status_code = 200
-        response_time = random.randint(1000, 3000)
-        message = "Request completed but response was slow"
-
-    elif event_type == "client_error":
-        level = "WARNING"
-        status_code = random.choice([400, 401, 403, 404])
-        response_time = random.randint(50, 500)
-        message = "Invalid client request"
-
-    elif event_type == "server_error":
-        level = "ERROR"
-        status_code = random.choice([500, 502, 503])
-        response_time = random.randint(300, 2000)
-        message = "Internal service failure"
-
-    else:
-        level = "ERROR"
-        status_code = 504
-        response_time = 3000
-        message = "Upstream service timeout"
-
+def create_event(
+    timestamp,
+    level,
+    service,
+    request_id,
+    order_id,
+    status_code,
+    response_time,
+    message,
+):
     return (
         f"{timestamp:%Y-%m-%d %H:%M:%S} "
         f"{level} "
@@ -63,7 +40,139 @@ def generate_log(timestamp, request_id, order_id):
     )
 
 
-def generate_logs(number_of_logs=1000):
+def generate_request_flow(timestamp, request_id, order_id):
+    flow_type = random.choices(
+        FLOW_TYPES,
+        weights=FLOW_WEIGHTS,
+        k=1,
+    )[0]
+
+    events = []
+
+    # 1. POS sends the order
+    events.append(
+        create_event(
+            timestamp,
+            "INFO",
+            "pos-integration",
+            request_id,
+            order_id,
+            200,
+            random.randint(30, 150),
+            "Order received from POS",
+        )
+    )
+
+    timestamp += timedelta(seconds=1)
+
+    # 2. Order service validates the order
+    events.append(
+        create_event(
+            timestamp,
+            "INFO",
+            "order-service",
+            request_id,
+            order_id,
+            200,
+            random.randint(20, 120),
+            "Order validated successfully",
+        )
+    )
+
+    timestamp += timedelta(seconds=1)
+
+    # 3. Payment service
+    if flow_type == "success":
+        events.append(
+            create_event(
+                timestamp,
+                "INFO",
+                "payment-service",
+                request_id,
+                order_id,
+                200,
+                random.randint(50, 300),
+                "Payment processed successfully",
+            )
+        )
+
+        timestamp += timedelta(seconds=1)
+
+        events.append(
+            create_event(
+                timestamp,
+                "INFO",
+                "order-service",
+                request_id,
+                order_id,
+                201,
+                random.randint(20, 150),
+                "Order completed successfully",
+            )
+        )
+
+    elif flow_type == "payment_failure":
+        events.append(
+            create_event(
+                timestamp,
+                "ERROR",
+                "payment-service",
+                request_id,
+                order_id,
+                500,
+                random.randint(500, 1500),
+                "Payment processing failed",
+            )
+        )
+
+        timestamp += timedelta(seconds=1)
+
+        events.append(
+            create_event(
+                timestamp,
+                "ERROR",
+                "order-service",
+                request_id,
+                order_id,
+                500,
+                random.randint(50, 200),
+                "Order failed because payment failed",
+            )
+        )
+
+    else:
+        events.append(
+            create_event(
+                timestamp,
+                "ERROR",
+                "payment-service",
+                request_id,
+                order_id,
+                504,
+                3000,
+                "Payment service timeout",
+            )
+        )
+
+        timestamp += timedelta(seconds=1)
+
+        events.append(
+            create_event(
+                timestamp,
+                "ERROR",
+                "order-service",
+                request_id,
+                order_id,
+                504,
+                random.randint(50, 200),
+                "Order failed because payment service timed out",
+            )
+        )
+
+    return events
+
+
+def generate_logs(number_of_requests=250):
     output_directory = Path("data/raw")
     output_directory.mkdir(parents=True, exist_ok=True)
 
@@ -72,21 +181,24 @@ def generate_logs(number_of_logs=1000):
     start_time = datetime.now() - timedelta(hours=1)
 
     with output_file.open("w", encoding="utf-8") as file:
-        for i in range(number_of_logs):
-            timestamp = start_time + timedelta(seconds=i * 5)
+        current_time = start_time
 
+        for i in range(number_of_requests):
             request_id = f"req-{i + 1:06d}"
             order_id = f"ORD-{random.randint(10000, 99999)}"
 
-            log = generate_log(
-                timestamp,
+            events = generate_request_flow(
+                current_time,
                 request_id,
                 order_id,
             )
 
-            file.write(log + "\n")
+            for event in events:
+                file.write(event + "\n")
 
-    print(f"Generated {number_of_logs} logs.")
+            current_time += timedelta(seconds=5)
+
+    print(f"Generated logs for {number_of_requests} requests.")
     print(f"Saved to: {output_file}")
 
 
